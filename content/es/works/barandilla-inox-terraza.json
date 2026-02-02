@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/barandilla-inox-terraza",
+    "title": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol",
+    "description": "Caso de éxito: fabricación e instalación de barandilla en inox con acabado ...",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Barandilla inox para terraza",
+      "subheadline": "Trabajo tipo: barandilla de acero inoxidable para exterior, con anclajes reforzados y acabado fácil de mantener.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Inox (AISI 304/316 según uso)",
+        "Acabado limpio",
+        "Montaje seguro"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Personalizamos medidas, pasamanos, montantes y tipo de fijación según la terraza.",
+      "items": [
+        {
+          "title": "Material",
+          "description": "Inox para exterior (según ambiente, 304 o 316).",
+          "tags": [
+            "Inox",
+            "Exterior"
+          ]
+        },
+        {
+          "title": "Acabado",
+          "description": "Satinado/cepillado para mejor mantenimiento y estética.",
+          "tags": [
+            "Acabado"
+          ]
+        },
+        {
+          "title": "Fijación",
+          "description": "Anclaje químico o mecánico en función del soporte.",
+          "tags": [
+            "Seguridad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamanos-inox.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamano-inox.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamanos-inox-2.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/caballetes-trabajo/dbm-estructura-metalica-altillo-05.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-07.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-08.jpg",
+          "alt": "Barandilla de inox para terraza | Trabajo en Castellón y Borriol - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo lo hacemos",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Tomamos medidas y evaluamos soporte y puntos de fijación."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura y acabado con tolerancias ajustadas."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación y revisión final de seguridad."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Inox 304 o 316?",
+          "a": "En zonas muy húmedas o cerca del mar recomendamos 316. En interior o exterior estándar, 304 suele ser suficiente."
+        },
+        {
+          "q": "¿Se puede instalar sobre azulejo?",
+          "a": "Sí, valoramos el soporte real y usamos el anclaje adecuado para no dañar la pieza."
+        },
+        {
+          "q": "¿Cuánto tarda?",
+          "a": "Depende de medidas y acabado. Te damos plazo por escrito tras medir."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Presupuesto de barandilla inox",
+      "subtitle": "Envíanos fotos del soporte y la longitud aproximada. Si puedes, indica altura deseada.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para una barandilla de inox (terraza). Puedo enviar fotos y medidas aproximadas. Municipio: ____."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Describe tu barandilla (metros, altura, tipo de fijación)",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

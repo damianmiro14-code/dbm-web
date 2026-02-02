@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/panel-sandwich",
+    "title": "Panel sándwich en Castellón | DBM",
+    "description": "Montaje de panel sándwich para cubiertas y cerramientos en Castellón. Aislamiento y rapidez de instalación.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Panel sándwich",
+      "subheadline": "Montaje de panel sándwich para naves, almacenes y cerramientos: aislamiento y rapidez.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Cubiertas",
+          "description": "Panel sándwich para cubiertas con buen aislamiento.",
+          "tags": [
+            "Aislamiento",
+            "Rapidez"
+          ]
+        },
+        {
+          "title": "Cerramientos",
+          "description": "Cerramientos industriales y separaciones.",
+          "tags": [
+            "Naves",
+            "Industrial"
+          ]
+        },
+        {
+          "title": "Remates y sellados",
+          "description": "Detalles de instalación para buen funcionamiento.",
+          "tags": [
+            "Detalles",
+            "Durabilidad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-estructura-metalica-altillo-01.jpg",
+          "alt": "Panel sándwich en Castellón | DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-08.jpg",
+          "alt": "Panel sándwich en Castellón | DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-07.jpg",
+          "alt": "Panel sándwich en Castellón | DBM - foto 3"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿El panel sándwich sirve para cerrar una nave?",
+          "a": "Sí. Es una solución habitual por aislamiento y rapidez de montaje."
+        },
+        {
+          "q": "¿Hacéis remates y encuentros?",
+          "a": "Sí, cuidamos los remates para un buen sellado."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Techos y cubiertas",
+          "description": "Servicio de techos y cubiertas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/techos-cubiertas",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Servicio de estructuras metálicas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Servicio de cerramientos industriales en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Panel sándwich en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

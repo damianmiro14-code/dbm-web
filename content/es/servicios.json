@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios",
+    "title": "Carpintería metálica en Castellón | DBM Carpintería Metálica",
+    "description": "Carpintería metálica en Castelló de la Plana y provincia. Soldadura MIG/MAG, TIG (inox) y electrodo, estructuras metálicas, puertas, rejas y montajes industriales. Respondemos el mismo día.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Castellón y alrededores",
+      "subheadline": "Fabricación, soldadura e instalación de soluciones metálicas a medida para particulares, empresas e industria. Trabajos finos, plazos cumplidos y atención directa.",
+      "primaryCta": {
+        "label": "Pedir presupuesto por WhatsApp",
+        "href": "https://wa.me/34624356893?text=Hola%2C%20soy%20____%20y%20necesito%20presupuesto%20para%20un%20trabajo%20de%20carpinter%C3%ADa%20met%C3%A1lica%20en%20Castell%C3%B3n.%20Puedo%20enviar%20fotos%20y%20medidas."
+      },
+      "secondaryCta": {
+        "label": "Llamar ahora",
+        "href": "tel:+34624356893"
+      },
+      "highlights": [
+        "Acabado fino y profesional",
+        "Cumplimos plazos acordados por escrito",
+        "Respondemos el mismo día (horario laboral)",
+        "Atención en nave con cita previa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios de carpintería metálica",
+      "subtitle": "Trabajos en hierro, acero e inox. Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+      "items": [
+        {
+          "title": "Soldadura profesional (MIG/MAG, TIG e electrodo)",
+          "description": "Soldadura MIG/MAG, TIG (inox) y soldadura por electrodo para estructuras, reparaciones y montajes metálicos, tanto en taller como en obra.",
+          "tags": [
+            "MIG/MAG",
+            "TIG",
+            "Electrodo"
+          ],
+          "href": "/servicios/soldadura"
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Fabricación personalizada adaptada a cada necesidad, cuidando el acabado y la funcionalidad.",
+          "tags": [
+            "A medida",
+            "Acabados",
+            "Instalación"
+          ],
+          "href": "/servicios/carpinteria-metalica-a-medida"
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas correderas y abatibles, rejas de seguridad y cerramientos para viviendas, patios, naves y locales.",
+          "tags": [
+            "Seguridad",
+            "Exterior",
+            "Durabilidad"
+          ],
+          "href": "/servicios/puertas-rejas-cerramientos"
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Fabricación e instalación de estructuras metálicas para uso industrial, comercial o residencial.",
+          "tags": [
+            "Precisión",
+            "Resistencia",
+            "Montaje"
+          ],
+          "href": "/servicios/estructuras-metalicas"
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Montaje de estructuras, cerramientos y elementos metálicos en entornos industriales, cumpliendo plazos y especificaciones técnicas.",
+          "tags": [
+            "Industria",
+            "Plazos",
+            "Seguridad"
+          ],
+          "href": "/servicios/montajes-industriales"
+        },
+        {
+          "title": "Trabajos en acero inoxidable (inox)",
+          "description": "Elementos en inox ideales para exterior, industria alimentaria y entornos exigentes.",
+          "tags": [
+            "Inox",
+            "Exterior",
+            "Anticorrosión"
+          ],
+          "href": "/servicios/inox"
+        },
+        {
+          "title": "Techos y cubiertas metálicas",
+          "description": "Instalación de techos metálicos y cubiertas resistentes y funcionales.",
+          "tags": [
+            "Cubiertas",
+            "Resistencia",
+            "Instalación"
+          ],
+          "href": "/servicios/techos-cubiertas"
+        },
+        {
+          "title": "Panel sándwich",
+          "description": "Montaje de panel sándwich para cubiertas y cerramientos industriales, naves y almacenes.",
+          "tags": [
+            "Aislamiento",
+            "Rapidez",
+            "Naves"
+          ],
+          "href": "/servicios/panel-sandwich"
+        },
+        {
+          "title": "Cerramientos / paramentos industriales",
+          "description": "Soluciones de cerramiento metálico para fachadas, interiores y separaciones industriales.",
+          "tags": [
+            "Industrial",
+            "Cerramientos",
+            "Eficiencia"
+          ],
+          "href": "/servicios/cerramientos-paramentos-industriales"
+        },
+        {
+          "title": "Cerraduras y refuerzos",
+          "description": "Instalación y reparación de cerraduras, refuerzos de seguridad y elementos antirrobo.",
+          "tags": [
+            "Refuerzo",
+            "Reparación",
+            "Seguridad"
+          ],
+          "href": "/servicios/cerraduras-refuerzos"
+        },
+        {
+          "title": "Escaleras metálicas",
+          "description": "Escaleras metálicas interiores y exteriores, funcionales y resistentes.",
+          "tags": [
+            "Interior",
+            "Exterior",
+            "Estructura"
+          ],
+          "href": "/servicios/escaleras-metalicas"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Nuestro proceso de trabajo",
+      "steps": [
+        {
+          "title": "Contacto y asesoramiento",
+          "description": "Escuchamos tu necesidad, resolvemos dudas y, si es necesario, concertamos visita."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Tomamos medidas, definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación en taller",
+          "description": "Fabricamos cada pieza cuidando el acabado y la precisión."
+        },
+        {
+          "title": "Instalación y entrega",
+          "description": "Instalamos el trabajo y cumplimos los plazos acordados por escrito."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos recientes",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Estructura metálica a medida"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Puerta metálica instalada"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y panel sándwich"
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "id": "opiniones",
+      "title": "Opiniones",
+      "items": [
+        {
+          "name": "Cliente",
+          "quote": "Acabado muy fino y cumplieron los plazos."
+        },
+        {
+          "name": "Empresa",
+          "quote": "Profesionales en montaje industrial, comunicación clara."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Qué tipo de soldadura realizáis?",
+          "a": "Trabajamos con soldadura MIG/MAG, TIG (inox) y soldadura por electrodo, según el material y el entorno de instalación."
+        },
+        {
+          "q": "¿Atendéis en nave?",
+          "a": "Sí, atendemos en nave con cita previa."
+        },
+        {
+          "q": "¿En qué zona trabajáis?",
+          "a": "Trabajamos en Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia."
+        },
+        {
+          "q": "¿Cuándo respondéis a una solicitud?",
+          "a": "Respondemos el mismo día en horario laboral."
+        },
+        {
+          "q": "¿Hacéis trabajos a medida?",
+          "a": "Sí, fabricamos e instalamos soluciones metálicas a medida (puertas, rejas, estructuras, escaleras, cerramientos y más)."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Puedes enviarnos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto para un trabajo de carpintería metálica en Castellón. Puedo enviar fotos y medidas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

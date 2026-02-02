@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/opiniones",
+    "title": "Opiniones de clientes | DBM Carpintería Metálica",
+    "description": "Opiniones reales sobre DBM Carpintería Metálica en Castellón: atención, acabados y cumplimiento de plazos.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": ["Mo-Fr 07:00-20:00", "Sa 08:00-14:00"],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Opiniones de clientes",
+      "subheadline": "Trabajamos con atención directa, acabados finos y plazos cumplidos. Estas son algunas opiniones representativas.",
+      "primaryCta": { "label": "Ver servicios", "href": "/servicios" },
+      "secondaryCta": { "label": "Pedir presupuesto", "href": "/contacto" },
+      "highlights": ["Atención directa", "Acabado profesional", "Cumplimos plazos"]
+    },
+    {
+      "type": "testimonials",
+      "id": "opiniones",
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        { "name": "Cliente", "quote": "Acabado muy fino y cumplieron los plazos. Comunicación clara." },
+        { "name": "Empresa", "quote": "Profesionales en montaje industrial. Serios y resolutivos." },
+        { "name": "Particular", "quote": "Instalaron una puerta y cerramiento. Trabajo limpio y bien rematado." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Las opiniones son verificables?",
+          "a": "Si lo deseas, te compartimos el enlace de Google para que veas las reseñas públicas disponibles."
+        },
+        {
+          "q": "¿Trabajáis para particulares y empresas?",
+          "a": "Sí. Realizamos trabajos para particulares, empresas e industria en Castellón y alrededores."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto",
+      "subtitle": "Cuéntanos tu idea y te orientamos. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y quiero presupuesto para un trabajo de carpintería metálica en Castellón."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

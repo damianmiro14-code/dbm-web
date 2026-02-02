@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos",
+    "title": "Trabajos de carpintería metálica en Castellón | DBM",
+    "description": "Galería de trabajos de carpintería metálica en Castellón: soldadura, estructuras, puertas, rejas, cerramientos y montajes industriales.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Trabajos recientes",
+      "subheadline": "Ejemplos de trabajos reales: fabricación, soldadura e instalación. Si buscas un presupuesto rápido, envíanos fotos y medidas por WhatsApp.",
+      "inlineGallery": {
+        "images": [
+          "/images/work/categorized/trabajos/escalera-metalica-chapa-lagrimada-led-gimnasio.jpg",
+          "/images/work/categorized/trabajos/soldadura-estructura-metalica-taller.jpg",
+          "/images/work/categorized/trabajos/barandilla-inox-cristal-escalera-gimnasio.jpg",
+          "/images/work/categorized/trabajos/soldadura-barandilla-inox-escalera.jpg",
+          "/images/work/categorized/trabajos/barandilla-cristal-escalera-interior.jpg",
+          "/images/work/categorized/trabajos/estructura-pergola-metalica-jardin.jpg",
+          "/images/work/categorized/trabajos/puerta-garaje-metalica-negra.jpg",
+          "/images/work/categorized/trabajos/barandilla-inox-cristal-vivienda.jpg",
+          "/images/work/categorized/trabajos/puerta-corredera-malla-metalica.jpg"
+        ],
+        "count": 9,
+        "altPrefix": "Trabajo de carpintería metálica"
+      },
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino y profesional",
+        "Cumplimos plazos acordados por escrito",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "casos",
+      "title": "Casos de éxito",
+      "subtitle": "Proyectos representativos (editables). Entra en cada caso para ver el proceso y pedir presupuesto con los datos clave.",
+      "items": [
+        {
+          "title": "Puerta corredera metálica (obra)",
+          "description": "Fabricación e instalación a medida, herrajes reforzados y ajuste en obra.",
+          "tags": [
+            "Exterior",
+            "A medida"
+          ],
+          "href": "/trabajos/puerta-corredera-obra"
+        },
+        {
+          "title": "Barandilla inox para terraza",
+          "description": "Inox con acabado limpio, medidas exactas y montaje seguro.",
+          "tags": [
+            "Inox",
+            "Residencial"
+          ],
+          "href": "/trabajos/barandilla-inox-terraza"
+        },
+        {
+          "title": "Cerramiento con panel sándwich (nave)",
+          "description": "Estructura metálica + panel sándwich para cerrar y aislar.",
+          "tags": [
+            "Industrial",
+            "Panel sándwich"
+          ],
+          "href": "/trabajos/cerramiento-panel-sandwich-nave"
+        },
+        {
+          "title": "Estructura metálica para altillo",
+          "description": "Aprovecha espacio en nave o almacén con una estructura robusta.",
+          "tags": [
+            "Estructuras",
+            "Industrial"
+          ],
+          "href": "/trabajos/estructura-metalica-altillo"
+        },
+        {
+          "title": "Rejas de seguridad para vivienda",
+          "description": "Rejas a medida, lacadas y con anclajes seguros.",
+          "tags": [
+            "Seguridad",
+            "Residencial"
+          ],
+          "href": "/trabajos/rejas-seguridad-vivienda"
+        },
+        {
+          "title": "Escalera metálica interior",
+          "description": "Diseño, fabricación e instalación con barandilla y acabado profesional.",
+          "tags": [
+            "Interiores",
+            "A medida"
+          ],
+          "href": "/trabajos/escalera-metalica-interior"
+        },
+        {
+          "title": "Valla opaca móvil para obra",
+          "description": "Cerramiento temporal con privacidad y seguridad, solución rápida.",
+          "tags": [
+            "Obra",
+            "Cerramientos"
+          ],
+          "href": "/trabajos/valla-opaca-obra-movil"
+        },
+        {
+          "title": "Refuerzo de cerradura en puerta metálica",
+          "description": "Refuerzos anti-palanca y mejora de seguridad en accesos.",
+          "tags": [
+            "Seguridad",
+            "Refuerzos"
+          ],
+          "href": "/trabajos/refuerzo-cerradura-puerta"
+        },
+        {
+          "title": "Techo metálico para porche",
+          "description": "Estructura a medida para exterior, refuerzos y acabado protegido. Montaje limpio y rápido.",
+          "tags": [
+            "Exterior",
+            "Estructuras"
+          ],
+          "href": "/trabajos/techo-porche-metalico"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Podéis desplazaros a obra?",
+          "a": "Sí. Hacemos montaje en obra y trabajos en taller según el tipo de proyecto y accesibilidad."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuestar?",
+          "a": "Con fotos, medidas aproximadas y una breve descripción podemos orientarte. Si hace falta, concertamos visita."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto para un trabajo de carpintería metálica en Castellón. Puedo enviar fotos y medidas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

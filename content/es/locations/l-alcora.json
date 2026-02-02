@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/l-alcora",
+    "title": "Estructuras y cerramientos metálicos en l'Alcora | DBM",
+    "description": "Carpintería metálica en l'Alcora (Alcora): estructuras, cerramientos, panel sándwich y trabajos en inox. Fabricación e instalación. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en L'Alcora",
+      "subheadline": "Servicio en l'Alcora (Alcora). Soluciones para vivienda y industria: estructuras, cerramientos y panel sándwich, además de soldadura e inox.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Estructuras",
+        "Panel sándwich",
+        "Montaje"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en L'Alcora",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras metálicas para soportes, ampliaciones y refuerzos.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "L'Alcora"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Cerramientos y paramentos para naves y zonas de trabajo.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "L'Alcora"
+          ]
+        },
+        {
+          "title": "Panel sándwich",
+          "description": "Cubiertas y cerramientos con panel sándwich para naves y almacenes.",
+          "href": "/servicios/panel-sandwich",
+          "tags": [
+            "L'Alcora"
+          ]
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Montaje y mantenimiento de elementos metálicos en obra.",
+          "href": "/servicios/montajes-industriales",
+          "tags": [
+            "L'Alcora"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones y fabricación a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "L'Alcora"
+          ]
+        },
+        {
+          "title": "Inox",
+          "description": "Trabajos en inox para barandillas y piezas especiales.",
+          "href": "/servicios/inox",
+          "tags": [
+            "L'Alcora"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en L'Alcora",
+      "items": [
+        {
+          "q": "¿Trabajáis en l'Alcora (Alcora)?",
+          "a": "Sí. Atendemos l'Alcora y alrededores según tipo de trabajo y agenda."
+        },
+        {
+          "q": "¿Hacéis trabajos para naves y empresas?",
+          "a": "Sí. Montajes, cerramientos, panel sándwich y estructuras para industria y almacenes."
+        },
+        {
+          "q": "¿Podéis realizar cerramientos metálicos?",
+          "a": "Sí. Cerramientos y paramentos según necesidad (seguridad, privacidad, etc.)."
+        },
+        {
+          "q": "¿Panel sándwich: cubierta o fachada?",
+          "a": "Hacemos instalación de panel sándwich para cubierta y cerramiento, según proyecto."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Tomamos medidas y detalles para fabricar y montar con precisión."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuestar?",
+          "a": "Fotos, medidas aproximadas y qué uso tendrá (vivienda, nave, exterior…)."
+        },
+        {
+          "q": "¿Plazo de montaje?",
+          "a": "Depende del tamaño y materiales. Te damos fecha estimada al confirmar el presupuesto."
+        },
+        {
+          "q": "¿Trabajáis con inox?",
+          "a": "Sí. Inox para zonas expuestas, barandillas y piezas especiales."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en L'Alcora y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en L'Alcora (Alcora).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

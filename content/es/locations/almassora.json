@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/almassora",
+    "title": "Carpintería metálica en Almassora (Almazora) | Estructuras y cerramientos | DBM",
+    "description": "Carpintería metálica en Almassora (Almazora): estructuras metálicas, cerramientos, panel sándwich y soldadura. Medición y montaje en obra. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Almassora",
+      "subheadline": "Servicio en Almassora (Almazora). Trabajos para vivienda e industria: estructuras, cerramientos, panel sándwich, soldadura e inox.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Estructuras",
+        "Cerramientos",
+        "Taller + obra"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Almassora",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras metálicas para soportes, ampliaciones y refuerzos.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Almassora"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Cerramientos y paramentos para naves, patios y zonas de trabajo.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "Almassora"
+          ]
+        },
+        {
+          "title": "Panel sándwich",
+          "description": "Cubiertas y cerramientos con panel sándwich para almacenes y naves.",
+          "href": "/servicios/panel-sandwich",
+          "tags": [
+            "Almassora"
+          ]
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Montajes y mantenimiento de elementos metálicos en obra.",
+          "href": "/servicios/montajes-industriales",
+          "tags": [
+            "Almassora"
+          ]
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas y rejas a medida para accesos y seguridad.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Almassora"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones y fabricación a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Almassora"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Almassora",
+      "items": [
+        {
+          "q": "¿Trabajáis en Almassora (Almazora)?",
+          "a": "Sí. Atendemos Almassora y alrededores según agenda."
+        },
+        {
+          "q": "¿Hacéis estructuras metálicas para naves?",
+          "a": "Sí. Estructuras, refuerzos y elementos metálicos a medida."
+        },
+        {
+          "q": "¿Instaláis panel sándwich?",
+          "a": "Sí. Instalación de panel sándwich en cubiertas y cerramientos según proyecto."
+        },
+        {
+          "q": "¿Podéis realizar cerramientos y paramentos?",
+          "a": "Sí. Cerramientos metálicos para seguridad y separación de espacios."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuesto rápido?",
+          "a": "Fotos, medidas aproximadas y una descripción del uso. Si hay planos, perfecto."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Para trabajos a medida podemos realizar visita y medición."
+        },
+        {
+          "q": "¿Plazos de entrega?",
+          "a": "Te confirmamos plazo tras revisar medidas y materiales."
+        },
+        {
+          "q": "¿Trabajáis con inox?",
+          "a": "Sí. Inox para barandillas, remates y piezas especiales."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Almassora y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Almassora (Almazora).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/cerramiento-panel-sandwich-nave",
+    "title": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón",
+    "description": "Caso de éxito: montaje de cerramiento con estructura metálica y panel sándwich ...",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Cerramiento con panel sándwich en nave",
+      "subheadline": "Trabajo tipo para naves y almacenes: estructura metálica, montaje de panel sándwich y remates para estanqueidad.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Montaje rápido",
+        "Remates y sellados",
+        "Aislamiento y acabado limpio"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Notas técnicas y alcance típico. Sustituye por datos reales del proyecto.",
+      "items": [
+        {
+          "title": "Estructura",
+          "description": "Perfilería metálica galvanizada/lacada según necesidad.",
+          "tags": [
+            "Galvanizado",
+            "Industrial"
+          ]
+        },
+        {
+          "title": "Panel",
+          "description": "Panel sándwich con espesor a definir según uso y normativa.",
+          "tags": [
+            "Aislamiento"
+          ]
+        },
+        {
+          "title": "Remates",
+          "description": "Encuentros, vierteaguas y sellado para evitar filtraciones.",
+          "tags": [
+            "Estanqueidad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo lo ejecutamos",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Tomamos medidas en obra o validamos plano."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Preparación de estructura y remates en taller."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación del panel y remates para un acabado limpio."
+        },
+        {
+          "title": "Revisión",
+          "description": "Comprobación de fijaciones, sellados y funcionamiento."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-estructura-metalica-altillo-01.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-08.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-cerramiento-panel-sandwich-nave-07.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/panel-sandwich.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/panel-sandwich-y-estructura.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/panel-sandwich-2.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/cerramiento-panel-sandwich-nave/dbm-estructura-metalica-altillo-12.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Cerramiento con panel sándwich en nave | Trabajo en provincia de Castellón - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Qué espesor de panel recomendáis?",
+          "a": "Depende del uso (almacén, nave, oficina), orientación y requisitos de aislamiento. Lo definimos al presupuestar."
+        },
+        {
+          "q": "¿Hacéis remates y sellados?",
+          "a": "Sí. Incluimos remates y sellado para mejorar estanqueidad y acabado final."
+        },
+        {
+          "q": "¿Se puede lacar la estructura?",
+          "a": "Sí. Podemos galvanizar y/o lacar según exposición y acabado deseado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "¿Quieres un cerramiento similar?",
+      "subtitle": "Envíanos fotos, medidas y ubicación. Te damos una orientación y cerramos visita si hace falta.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para un cerramiento con panel sándwich (nave/almacén) en ____. Tengo fotos/medidas para enviar."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

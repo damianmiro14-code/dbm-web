@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/estructuras-metalicas",
+    "title": "Estructuras metálicas en Castellón | DBM",
+    "description": "Fabricación e instalación de estructuras metálicas en Castellón: precisión, resistencia y montaje seguro.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Estructuras metálicas",
+      "subheadline": "Estructuras para uso industrial, comercial o residencial, fabricadas e instaladas con precisión.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura y montaje de piezas con control de medidas.",
+          "tags": [
+            "Precisión",
+            "Resistencia"
+          ]
+        },
+        {
+          "title": "Refuerzos",
+          "description": "Refuerzos estructurales y reparaciones de elementos metálicos.",
+          "tags": [
+            "Refuerzo",
+            "Reparación"
+          ]
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación en obra cumpliendo plazos y seguridad.",
+          "tags": [
+            "Montaje",
+            "Plazos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-estructura-metalica-altillo-02.jpg",
+          "alt": "Estructuras metálicas en Castellón | DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/caballetes-trabajo/dbm-estructura-metalica-altillo-05.jpg",
+          "alt": "Estructuras metálicas en Castellón | DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-estructura-metalica-altillo-08.jpg",
+          "alt": "Estructuras metálicas en Castellón | DBM - foto 3"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Hacéis estructuras para exterior?",
+          "a": "Sí. Seleccionamos materiales y protección según exposición y uso."
+        },
+        {
+          "q": "¿Podéis trabajar con planos?",
+          "a": "Sí. Si dispones de planos o medidas, los usamos para fabricar y montar."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Soldadura",
+          "description": "Servicio de soldadura en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Servicio de montajes industriales en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/montajes-industriales",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Techos y cubiertas",
+          "description": "Servicio de techos y cubiertas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/techos-cubiertas",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Estructuras metálicas en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

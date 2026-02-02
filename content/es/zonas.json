@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas",
+    "title": "Zonas de servicio en Castellón | DBM Carpintería Metálica",
+    "description": "DBM trabaja en Castelló de la Plana, Borriol y municipios cercanos. Consulta disponibilidad y pide presupuesto sin compromiso.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Zonas de servicio en Castellón y alrededores",
+      "subheadline": "Trabajamos en Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Respuesta rápida",
+        "Taller y obra",
+        "Inox y soldadura"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "zonas",
+      "title": "Cerca de Borriol",
+      "subtitle": "Pueblos cercanos a Borriol con menor competencia y respuesta rápida.",
+      "items": [
+        {
+          "title": "Borriol",
+          "description": "Servicio en Borriol y urbanizaciones cercanas. Presupuesto rápido.",
+          "href": "/zonas/borriol",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Sant Joan de Moró",
+          "description": "Trabajos a medida en Sant Joan de Moró (San Juan de Moró).",
+          "href": "/zonas/sant-joan-de-moro",
+          "tags": [
+            "Cerca de Borriol"
+          ]
+        },
+        {
+          "title": "Vilafamés",
+          "description": "Soldadura, inox y cerramientos en Vilafamés (Villafamés).",
+          "href": "/zonas/vilafames",
+          "tags": [
+            "Cerca de Borriol"
+          ]
+        },
+        {
+          "title": "La Pobla Tornesa",
+          "description": "Puertas, rejas y estructuras metálicas en La Pobla Tornesa.",
+          "href": "/zonas/la-pobla-tornesa",
+          "tags": [
+            "Cerca de Borriol"
+          ]
+        },
+        {
+          "title": "L'Alcora",
+          "description": "Carpintería metálica en L'Alcora (Alcora). Taller + montaje.",
+          "href": "/zonas/l-alcora",
+          "tags": [
+            "Cerca de Borriol"
+          ]
+        },
+        {
+          "title": "Cabanes",
+          "description": "Cerramientos y trabajos metálicos en Cabanes y alrededores.",
+          "href": "/zonas/cabanes",
+          "tags": [
+            "Cerca de Borriol"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "zonas-1",
+      "title": "Área de Castelló y costa",
+      "subtitle": "Municipios con más volumen y servicios industriales y residenciales.",
+      "items": [
+        {
+          "title": "Castelló de la Plana",
+          "description": "Servicio en Castelló de la Plana / Castellón de la Plana.",
+          "href": "/zonas/castello-de-la-plana",
+          "tags": [
+            "Castelló"
+          ]
+        },
+        {
+          "title": "Almassora",
+          "description": "Soldadura, estructuras y trabajos a medida en Almassora (Almazora).",
+          "href": "/zonas/almassora",
+          "tags": [
+            "Plana"
+          ]
+        },
+        {
+          "title": "Vila-real",
+          "description": "Servicios de metal en Vila-real (Villarreal).",
+          "href": "/zonas/vila-real",
+          "tags": [
+            "Plana"
+          ]
+        },
+        {
+          "title": "Borriana",
+          "description": "Cerramientos, puertas y rejas en Borriana/Burriana.",
+          "href": "/zonas/borriana",
+          "tags": [
+            "Plana"
+          ]
+        },
+        {
+          "title": "Benicàssim",
+          "description": "Trabajos en chalets y cerramientos en Benicàssim (Benicasim).",
+          "href": "/zonas/benicassim",
+          "tags": [
+            "Costa"
+          ]
+        },
+        {
+          "title": "Orpesa",
+          "description": "Carpintería metálica en Orpesa / Oropesa del Mar.",
+          "href": "/zonas/orpesa",
+          "tags": [
+            "Costa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "zonas-2",
+      "title": "Más municipios",
+      "subtitle": "Atendemos la provincia según el tipo de trabajo y la agenda.",
+      "items": [
+        {
+          "title": "Onda",
+          "description": "Trabajos metálicos y montajes en Onda.",
+          "href": "/zonas/onda",
+          "tags": [
+            "Provincia"
+          ]
+        },
+        {
+          "title": "Nules",
+          "description": "Puertas, rejas y cerramientos en Nules.",
+          "href": "/zonas/nules",
+          "tags": [
+            "Provincia"
+          ]
+        },
+        {
+          "title": "La Vall d'Uixó",
+          "description": "Carpintería metálica en La Vall d'Uixó (Vall de Uxó).",
+          "href": "/zonas/la-vall-duixo",
+          "tags": [
+            "Provincia"
+          ]
+        },
+        {
+          "title": "Provincia de Castellón",
+          "description": "Atendemos municipios cercanos en toda la provincia (según trabajo y agenda).",
+          "href": "/zonas/provincia-castellon",
+          "tags": [
+            "Provincia"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cubrís toda la provincia?",
+          "a": "Sí, en general cubrimos Castellón y alrededores. Para trabajos fuera de Castelló de la Plana y Borriol, confirmamos disponibilidad según el tipo de trabajo y la agenda."
+        },
+        {
+          "q": "¿Hacéis mediciones a domicilio?",
+          "a": "Sí. Para trabajos a medida (puertas, rejas, estructuras, etc.) podemos realizar medición y tomar detalles en obra."
+        },
+        {
+          "q": "¿Cuánto tardáis en responder?",
+          "a": "Normalmente respondemos el mismo día en horario laboral. Si envías fotos y medidas, afinamos el presupuesto más rápido."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica tu localidad y el tipo de trabajo. Si puedes, añade fotos y medidas.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en ____ (Castellón).\nTrabajo: ____\nMedidas aprox.: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

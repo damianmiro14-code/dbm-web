@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/puertas-rejas-cerramientos",
+    "title": "Puertas, rejas y cerramientos en Castellón | DBM",
+    "description": "Puertas correderas y abatibles, rejas y cerramientos metálicos para viviendas, patios, naves y locales en Castellón.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Puertas, rejas y cerramientos",
+      "subheadline": "Seguridad y durabilidad: fabricamos e instalamos puertas, rejas y cerramientos metálicos.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Puertas",
+          "description": "Correderas y abatibles con opciones de seguridad y automatización.",
+          "tags": [
+            "Corredera",
+            "Abatible"
+          ]
+        },
+        {
+          "title": "Rejas",
+          "description": "Rejas a medida para ventanas, patios y accesos.",
+          "tags": [
+            "Seguridad",
+            "A medida"
+          ]
+        },
+        {
+          "title": "Cerramientos",
+          "description": "Cerramientos metálicos para patios, parcelas, naves y locales.",
+          "tags": [
+            "Exterior",
+            "Durabilidad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/puertas-rejas-cerramientos/dbm-puertas-rejas-puerta-metalica-negra-01.jpg",
+          "alt": "Puerta metálica exterior a medida - DBM"
+        },
+        {
+          "src": "/images/work/categorized/puertas-rejas-cerramientos/dbm-puertas-rejas-puerta-corredera-malla-02.jpg",
+          "alt": "Puerta corredera con malla metálica - DBM"
+        },
+        {
+          "src": "/images/work/categorized/puertas-rejas-cerramientos/dbm-puertas-rejas-reja-metalica-diseno-03.jpg",
+          "alt": "Reja metálica a medida con diseño - DBM"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Instaláis cerraduras o refuerzos?",
+          "a": "Sí, podemos incluir cerraduras y refuerzos de seguridad según el caso."
+        },
+        {
+          "q": "¿Trabajáis para naves y locales?",
+          "a": "Sí. Hacemos soluciones para residencial e industrial."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Cerraduras y refuerzos",
+          "description": "Servicio de cerraduras y refuerzos en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/cerraduras-refuerzos",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Servicio de carpintería metálica a medida en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Servicio de cerramientos industriales en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Puertas, rejas y cerramientos en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/techos-cubiertas",
+    "title": "Techos y cubiertas metálicas en Castellón | DBM",
+    "description": "Instalación de techos y cubiertas metálicas en Castellón: soluciones resistentes y funcionales.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Techos y cubiertas metálicas",
+      "subheadline": "Cubiertas metálicas resistentes para naves, almacenes y viviendas, con instalación profesional.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Cubiertas metálicas",
+          "description": "Soluciones para protección y durabilidad.",
+          "tags": [
+            "Resistencia",
+            "Exterior"
+          ]
+        },
+        {
+          "title": "Remates",
+          "description": "Remates y encuentros para evitar filtraciones.",
+          "tags": [
+            "Detalles",
+            "Durabilidad"
+          ]
+        },
+        {
+          "title": "Mantenimiento",
+          "description": "Revisión y reparaciones puntuales.",
+          "tags": [
+            "Reparación",
+            "Mantenimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/techos-cubiertas/dbm-techos-cubiertas-nave-industrial-panel-sandwich-01.jpg",
+          "alt": "Techos y cubiertas metálicas en Castellón | DBM - nave industrial"
+        },
+        {
+          "src": "/images/work/categorized/techos-cubiertas/dbm-techos-cubiertas-techo-panel-sandwich-02.jpg",
+          "alt": "Techos y cubiertas metálicas en Castellón | DBM - techo panel sándwich"
+        },
+        {
+          "src": "/images/work/categorized/techos-cubiertas/dbm-techos-cubiertas-interior-nave-panel-sandwich-03.jpg",
+          "alt": "Techos y cubiertas metálicas en Castellón | DBM - interior nave"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Podéis reparar una cubierta existente?",
+          "a": "Sí. Evaluamos la zona y proponemos reparación o refuerzo según necesidad."
+        },
+        {
+          "q": "¿Trabajáis en naves?",
+          "a": "Sí. Hacemos cubiertas para entornos industriales y comerciales."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Panel sándwich",
+          "description": "Servicio de panel sándwich en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/panel-sandwich",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Servicio de estructuras metálicas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Servicio de cerramientos industriales en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Techos y cubiertas en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

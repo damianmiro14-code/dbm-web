@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/vilafames",
+    "title": "Soldadura y trabajos en inox en Vilafamés | DBM",
+    "description": "Soldadura, inox y carpintería metálica en Vilafamés (Villafamés): rejas, puertas y estructuras a medida. Medición y montaje en obra. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Vilafamés",
+      "subheadline": "Servicio en Vilafamés (Villafamés). Soldadura, inox y trabajos a medida para viviendas y fincas: puertas, rejas, cerramientos y estructuras.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Soldadura",
+        "Inox",
+        "A medida"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Vilafamés",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Soldadura",
+          "description": "Soldadura en Vilafamés para reparaciones, refuerzos y fabricación a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Vilafamés"
+          ]
+        },
+        {
+          "title": "Inox",
+          "description": "Barandillas, piezas y remates en inoxidable con buen acabado.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Vilafamés"
+          ]
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Rejas y puertas metálicas a medida para vivienda y parcela.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Vilafamés"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras metálicas para soportes, porches y ampliaciones.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Vilafamés"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Soluciones de metal adaptadas a tu proyecto.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Vilafamés"
+          ]
+        },
+        {
+          "title": "Cerraduras y refuerzos",
+          "description": "Refuerzos y seguridad en accesos metálicos.",
+          "href": "/servicios/cerraduras-refuerzos",
+          "tags": [
+            "Vilafamés"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Vilafamés",
+      "items": [
+        {
+          "q": "¿Trabajáis en Vilafamés (Villafamés)?",
+          "a": "Sí. Prestamos servicio en Vilafamés y alrededores según agenda."
+        },
+        {
+          "q": "¿Hacéis soldadura en obra?",
+          "a": "En algunos trabajos sí. Si lo permite la instalación, hacemos parte en obra y parte en taller."
+        },
+        {
+          "q": "¿Podéis hacer rejas a medida para ventanas?",
+          "a": "Sí. Rejas fijas o practicables, con acabado lacado o galvanizado según necesidad."
+        },
+        {
+          "q": "¿Trabajáis con inox para exterior?",
+          "a": "Sí. Inox es ideal para exteriores y zonas expuestas."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuestar?",
+          "a": "Fotos, medidas aproximadas, y si tienes preferencia de acabado/material."
+        },
+        {
+          "q": "¿Podéis desplazaros para medir?",
+          "a": "Sí. Para trabajos a medida podemos realizar medición en obra."
+        },
+        {
+          "q": "¿Plazos de entrega?",
+          "a": "Dependen del trabajo. Te indicamos plazo tras confirmar medidas y materiales."
+        },
+        {
+          "q": "¿Ofrecéis instalación?",
+          "a": "Sí. Fabricamos y montamos para entregar el trabajo listo."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Vilafamés y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Vilafamés (Villafamés).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/contacto",
+    "title": "Contacto y presupuesto | DBM Carpintería Metálica",
+    "description": "Contacta con DBM Carpintería Metálica en Castellón. Presupuesto rápido por WhatsApp o teléfono. Respondemos el mismo día.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Contacto",
+      "subheadline": "Cuéntanos qué necesitas (fotos, medidas y ubicación) y te respondemos el mismo día en horario laboral.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "WhatsApp",
+        "href": "https://wa.me/34624356893?text=Hola%2C%20soy%20____%20y%20necesito%20presupuesto%20para%20un%20trabajo%20de%20carpinter%C3%ADa%20met%C3%A1lica%20en%20Castell%C3%B3n.%20Puedo%20enviar%20fotos%20y%20medidas."
+      },
+      "highlights": [
+        "Presupuesto rápido",
+        "Atención directa",
+        "Castellón y alrededores"
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto para un trabajo de carpintería metálica en Castellón. Puedo enviar fotos y medidas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar",
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "href": "https://www.instagram.com/dbmmetal?igsh=MWN1OGViaXh2c3RsZg=="
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "href": "https://www.tiktok.com/@dbm_carpinteria_metalica?_r=1&_t=ZN-93YeplPbWcQ"
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "href": "https://www.facebook.com/share/1HndopcUCR/"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cuándo respondéis?",
+          "a": "Respondemos el mismo día en horario laboral."
+        },
+        {
+          "q": "¿Cómo pedir presupuesto más rápido?",
+          "a": "Envíanos fotos, medidas aproximadas y ubicación. Si hace falta, concertamos visita."
+        }
+      ]
+    }
+  ]
+}

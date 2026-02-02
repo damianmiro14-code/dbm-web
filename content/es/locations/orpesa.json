@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/orpesa",
+    "title": "Barandillas inox y cerramientos en Orpesa (Oropesa del Mar) | DBM",
+    "description": "Carpintería metálica en Orpesa (Oropesa del Mar): barandillas inox, cerramientos, puertas metálicas y soldadura. Acabados para exterior. Presupuesto por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Orpesa / Oropesa del Mar",
+      "subheadline": "Servicio en Orpesa (Oropesa del Mar). Especial foco en exterior: inox, barandillas y cerramientos para viviendas, comunidades y negocios.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Inox para exterior",
+        "Cerramientos",
+        "Respuesta rápida"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Orpesa / Oropesa del Mar",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Inox",
+          "description": "Barandillas y piezas en inox para exterior con buen acabado.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas y cerramientos para accesos y seguridad.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Soluciones metálicas a medida para viviendas y negocios.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        },
+        {
+          "title": "Escaleras metálicas",
+          "description": "Escaleras metálicas y accesos a medida.",
+          "href": "/servicios/escaleras-metalicas",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        },
+        {
+          "title": "Techados y cubiertas",
+          "description": "Estructuras y soluciones de cubierta según necesidad.",
+          "href": "/servicios/techos-cubiertas",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones y trabajos a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Orpesa / Oropesa del Mar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Orpesa / Oropesa del Mar",
+      "items": [
+        {
+          "q": "¿Trabajáis en Orpesa (Oropesa del Mar)?",
+          "a": "Sí. Prestamos servicio en Orpesa y alrededores según agenda."
+        },
+        {
+          "q": "¿El inox es recomendable cerca del mar?",
+          "a": "Sí. El inox ofrece buena resistencia; te asesoramos según el uso y el acabado."
+        },
+        {
+          "q": "¿Hacéis barandillas para balcones y terrazas?",
+          "a": "Sí. Barandillas a medida con instalación incluida."
+        },
+        {
+          "q": "¿Podéis hacer cerramientos de seguridad?",
+          "a": "Sí. Cerramientos y puertas metálicas adaptadas al acceso."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuesto?",
+          "a": "Fotos, medidas aproximadas y una descripción del trabajo y ubicación."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Para trabajos a medida podemos realizar visita y medición."
+        },
+        {
+          "q": "¿Plazos de entrega?",
+          "a": "Dependen del trabajo. Te confirmamos plazo tras ver medidas y materiales."
+        },
+        {
+          "q": "¿Montaje incluido?",
+          "a": "Sí. Fabricamos y montamos para entregar el trabajo terminado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Orpesa / Oropesa del Mar y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Orpesa / Oropesa del Mar (Oropesa del Mar).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

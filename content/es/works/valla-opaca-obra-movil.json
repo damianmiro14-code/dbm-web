@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/valla-opaca-obra-movil",
+    "title": "Valla opaca móvil para obra | Caso de éxito DBM",
+    "description": "Caso de éxito: fabricación de valla opaca móvil para obra con estructura galvanizada y chapa grecada, pensada para privacidad y seguridad en cerramientos temporales.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Valla opaca móvil para obra",
+      "subheadline": "Fabricación de cerramiento metálico opaco con ruedas para facilitar montaje y movimiento. Ideal para obras y solares.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Estructura galvanizada",
+        "Chapa grecada",
+        "Opción con ruedas y refuerzos"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Panel modular opaco para cerrar zonas y ganar seguridad.",
+      "items": [
+        {
+          "title": "Estructura",
+          "description": "Perfiles galvanizados con refuerzos en puntos de apoyo.",
+          "tags": [
+            "Exterior",
+            "Galvanizado"
+          ]
+        },
+        {
+          "title": "Panel",
+          "description": "Chapa grecada opaca con opción de lacado según obra.",
+          "tags": [
+            "Chapa",
+            "Lacado opcional"
+          ]
+        },
+        {
+          "title": "Movilidad",
+          "description": "Configuración con ruedas para desplazar y recolocar rápido.",
+          "tags": [
+            "Ruedas",
+            "Montaje rápido"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/valla-opaca-obra-movil/dbm-puerta-corredera-obra-08.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/valla-opaca-obra-movil/dbm-valla-opaca-obra-movil-02.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/valla-opaca-obra-movil/dbm-valla-opaca-obra-movil-01.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamano-inox.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamanos-inox-2.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamanos-inox.jpg",
+          "alt": "Valla opaca móvil para obra | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Necesidad y medidas",
+          "description": "Definimos longitud, altura y tipo de apoyo según el terreno."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura y acabado en taller con control de rigidez."
+        },
+        {
+          "title": "Entrega y montaje",
+          "description": "Suministro y colocación; opción de módulos para ampliar por tramos."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Se puede lacar en un color concreto?",
+          "a": "Sí. Podemos lacar en colores estándar o según carta RAL, según plazos."
+        },
+        {
+          "q": "¿Se puede hacer con base para viento?",
+          "a": "Sí. Se refuerzan apoyos y se estudia fijación/contrapeso según ubicación."
+        },
+        {
+          "q": "¿Es modular para ampliarlo?",
+          "a": "Sí. Se puede fabricar en tramos para ampliar o reconfigurar el cerramiento."
+        },
+        {
+          "q": "¿Qué necesito para presupuestar?",
+          "a": "Medidas aproximadas, fotos del sitio y si lo quieres móvil (con ruedas) o fijo."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "¿Necesitas una valla opaca para obra?",
+      "subtitle": "Envíanos medidas y fotos. Te orientamos rápido por WhatsApp.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, necesito presupuesto para una valla opaca (cerramiento de obra). Medidas aproximadas: ___. Ubicación: ___. Tengo fotos y puedo enviarlas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

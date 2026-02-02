@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/cerraduras-refuerzos",
+    "title": "Cerraduras y refuerzos de seguridad en Castellón | DBM",
+    "description": "Instalación y reparación de cerraduras, refuerzos y elementos antirrobo en puertas y accesos metálicos en Castellón.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Cerraduras y refuerzos",
+      "subheadline": "Refuerzos de seguridad, reparación e instalación de cerraduras en puertas y accesos.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Refuerzos",
+          "description": "Refuerzo de puertas y puntos críticos.",
+          "tags": [
+            "Seguridad",
+            "Refuerzo"
+          ]
+        },
+        {
+          "title": "Cerraduras",
+          "description": "Instalación y sustitución de cerraduras según necesidad.",
+          "tags": [
+            "Reparación",
+            "Instalación"
+          ]
+        },
+        {
+          "title": "Soluciones antirrobo",
+          "description": "Mejoras para aumentar seguridad en accesos.",
+          "tags": [
+            "Seguridad",
+            "Accesos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-cerrojo-seguridad-01.jpg",
+          "alt": "Cerrojo de seguridad para puerta (cerraduras y refuerzos)"
+        },
+        {
+          "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-bombin-europerfil-02.jpg",
+          "alt": "Bombín de cerradura europerfil para refuerzo de seguridad"
+        },
+        {
+          "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-cerradura-electronica-03.jpg",
+          "alt": "Cerradura electrónica de seguridad instalada en puerta"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Podéis reforzar una puerta ya instalada?",
+          "a": "Sí. Evaluamos la estructura y proponemos refuerzo y cerradura adecuada."
+        },
+        {
+          "q": "¿Hacéis reparación urgente?",
+          "a": "Dependiendo de disponibilidad, intentamos dar respuesta rápida."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Servicio de puertas, rejas y cerramientos en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Servicio de carpintería metálica a medida en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Servicio de soldadura en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Cerraduras y refuerzos en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ],
+  "gallery": {
+    "images": [
+      {
+        "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-cerrojo-seguridad-01.jpg",
+        "alt": "Cerrojo de seguridad para puerta (cerraduras y refuerzos)"
+      },
+      {
+        "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-bombin-europerfil-02.jpg",
+        "alt": "Bombín de cerradura europerfil para refuerzo de seguridad"
+      },
+      {
+        "src": "/images/work/categorized/cerraduras-refuerzos/dbm-cerraduras-cerradura-electronica-03.jpg",
+        "alt": "Cerradura electrónica de seguridad instalada en puerta"
+      }
+    ]
+  }
+}

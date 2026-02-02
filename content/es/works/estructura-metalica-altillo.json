@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/estructura-metalica-altillo",
+    "title": "Estructura metálica para altillo | Caso de éxito DBM",
+    "description": "Caso de éxito: fabricación y montaje de una estructura metálica para altillo, optimizando espacio y resistencia. Medición, fabricación en taller y montaje en obra.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Estructura metálica para altillo",
+      "subheadline": "Trabajo tipo: estructura a medida para crear un altillo y aprovechar espacio. Fabricación en taller y montaje en obra en Castellón y alrededores.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Solución robusta",
+        "Acabados limpios",
+        "Montaje seguro"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Puntos clave del proyecto (sustituye por datos reales si procede).",
+      "items": [
+        {
+          "title": "Estructura a medida",
+          "description": "Diseño adaptado a la distribución y altura disponible.",
+          "tags": [
+            "Altillo",
+            "Estructura"
+          ]
+        },
+        {
+          "title": "Materiales y acabado",
+          "description": "Perfiles de acero según necesidad, imprimación y pintura o galvanizado.",
+          "tags": [
+            "Acero",
+            "Acabado"
+          ]
+        },
+        {
+          "title": "Montaje en obra",
+          "description": "Anclajes y nivelación para una base estable y segura.",
+          "tags": [
+            "Instalación"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Tomamos medidas y revisamos puntos de apoyo y cargas."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte y soldadura en taller con control de escuadras."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación, nivelación y remates finales."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-estructura-metalica-altillo-02.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-estructura-metalica-altillo-08.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-estructura-metalica-altillo-09.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-soldadura-09.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/estructura-metalica-altillo/dbm-cerramiento-panel-sandwich-nave-01.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/pasamano-inox.jpg",
+          "alt": "Estructura metálica para altillo | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Hace falta ver la obra antes?",
+          "a": "Si hay dudas de apoyos o medidas, recomendamos una visita para asegurar el presupuesto y la seguridad."
+        },
+        {
+          "q": "¿Qué acabados ofrecéis?",
+          "a": "Según uso y ubicación: imprimación + pintura, o galvanizado para mayor durabilidad."
+        },
+        {
+          "q": "¿Cuánto tarda el montaje?",
+          "a": "Depende de dimensiones y accesos; normalmente el montaje en obra se realiza en 1–2 días."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto",
+      "subtitle": "Envíanos fotos, medidas aproximadas y cuéntanos el uso del altillo.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para una estructura metálica/altillo. Medidas aprox: ____. Ubicación: ____. Puedo enviar fotos y medidas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

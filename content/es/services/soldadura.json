@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/soldadura",
+    "title": "Soldadura profesional en Castellón | DBM",
+    "description": "Soldadura MIG/MAG, TIG (inox) y electrodo en Castellón. Reparaciones, refuerzos, fabricación e instalación.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Soldadura profesional (MIG/MAG, TIG y electrodo)",
+      "subheadline": "Soldadura en taller y en obra para hierro, acero e inox. Reparación, refuerzo y fabricación.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "MIG/MAG",
+          "description": "Soldadura rápida y resistente para estructuras y fabricación.",
+          "tags": [
+            "Hierro",
+            "Acero",
+            "Estructuras"
+          ]
+        },
+        {
+          "title": "TIG (inox)",
+          "description": "Acabado fino para acero inoxidable y trabajos vistos.",
+          "tags": [
+            "Inox",
+            "Acabado",
+            "Precisión"
+          ]
+        },
+        {
+          "title": "Electrodo",
+          "description": "Solución versátil para reparaciones y trabajos específicos.",
+          "tags": [
+            "Reparación",
+            "Obra",
+            "Versátil"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/soldadura/dbm-soldadura-01.png",
+          "alt": "Soldadura profesional en Castellón | DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/soldadura/dbm-soldadura-02.jpg",
+          "alt": "Soldadura profesional en Castellón | DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/soldadura/dbm-soldadura-03.jpg",
+          "alt": "Soldadura profesional en Castellón | DBM - foto 3"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Trabajáis en inox?",
+          "a": "Sí, hacemos TIG en acero inoxidable (inox) para acabados finos y entornos exigentes."
+        },
+        {
+          "q": "¿Hacéis reparaciones en obra?",
+          "a": "Sí. Dependiendo del acceso y seguridad, podemos soldar y reparar en obra."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Inox",
+          "description": "Servicio de inox en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Servicio de estructuras metálicas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Servicio de montajes industriales en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/montajes-industriales",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Soldadura en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

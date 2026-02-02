@@ -1,0 +1,38 @@
+{
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "socialLinks": [
+      {
+        "platform": "instagram",
+        "label": "Instagram",
+        "href": "https://www.instagram.com/dbmmetal?igsh=MWN1OGViaXh2c3RsZg=="
+      },
+      {
+        "platform": "tiktok",
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@dbm_carpinteria_metalica?_r=1&_t=ZN-93YeplPbWcQ"
+      },
+      {
+        "platform": "facebook",
+        "label": "Facebook",
+        "href": "https://www.facebook.com/share/1HndopcUCR/"
+      }
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/cabanes",
+    "title": "Carpintería metálica en Cabanes | Puertas y cerramientos | DBM",
+    "description": "Carpintería metálica en Cabanes: puertas y rejas, cerramientos, soldadura e inox. Fabricación e instalación. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Cabanes",
+      "subheadline": "Servicio en Cabanes y alrededores. Puertas, rejas y cerramientos a medida, soldadura y trabajos en inox para vivienda y negocio.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Puertas y rejas",
+        "Soldadura",
+        "Respuesta rápida"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Cabanes",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas, rejas y cerramientos para viviendas y fincas.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Cabanes"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Reparaciones y fabricación a medida mediante soldadura.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Cabanes"
+          ]
+        },
+        {
+          "title": "Inox",
+          "description": "Barandillas y piezas en inoxidable con buen acabado.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Cabanes"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras y soportes metálicos a medida.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Cabanes"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Soluciones de metal adaptadas a tu proyecto.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Cabanes"
+          ]
+        },
+        {
+          "title": "Cerraduras y refuerzos",
+          "description": "Refuerzos y mejoras de seguridad en accesos.",
+          "href": "/servicios/cerraduras-refuerzos",
+          "tags": [
+            "Cabanes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Cabanes",
+      "items": [
+        {
+          "q": "¿Trabajáis en Cabanes?",
+          "a": "Sí. Damos servicio en Cabanes y municipios cercanos según agenda."
+        },
+        {
+          "q": "¿Hacéis puertas a medida para parcela o almacén?",
+          "a": "Sí. Correderas o abatibles, con acabado lacado o galvanizado."
+        },
+        {
+          "q": "¿Podéis reparar una puerta o reja existente?",
+          "a": "Sí. Ajustes, bisagras, cierres y refuerzos."
+        },
+        {
+          "q": "¿Qué necesitáis para el presupuesto?",
+          "a": "Fotos, medidas aproximadas y una descripción del uso (vivienda, finca, negocio)."
+        },
+        {
+          "q": "¿Trabajáis con inox?",
+          "a": "Sí. Inox para barandillas, remates y piezas expuestas."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Para trabajos a medida podemos ir a medir."
+        },
+        {
+          "q": "¿Plazos de fabricación?",
+          "a": "Dependen del trabajo. Te indicamos plazo al confirmar materiales y medidas."
+        },
+        {
+          "q": "¿Montaje incluido?",
+          "a": "Sí. Fabricamos y montamos para entregar el trabajo terminado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Cabanes y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Cabanes.\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

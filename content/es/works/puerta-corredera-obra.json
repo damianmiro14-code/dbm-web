@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/puerta-corredera-obra",
+    "title": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores",
+    "description": "Caso de éxito: fabricación e instalación de una puerta corredera metálica a medida. Estructura galvanizada, herrajes reforzados y ajuste en obra.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Puerta corredera metálica a medida",
+      "subheadline": "Caso tipo: puerta corredera para acceso exterior, fabricada a medida y ajustada en obra para un deslizamiento suave y seguro.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Fabricación a medida",
+        "Herrajes reforzados",
+        "Instalación y ajuste en obra"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Detalles principales del proyecto (sustituye por datos reales si procede).",
+      "items": [
+        {
+          "title": "Estructura",
+          "description": "Marco metálico con refuerzos para evitar torsión y mejorar la durabilidad.",
+          "tags": [
+            "Exterior",
+            "Reforzado"
+          ]
+        },
+        {
+          "title": "Acabado",
+          "description": "Galvanizado o imprimación + pintura (según necesidad de la obra).",
+          "tags": [
+            "Protección",
+            "Anticorrosión"
+          ]
+        },
+        {
+          "title": "Seguridad",
+          "description": "Cerradura y puntos de anclaje preparados para uso intensivo.",
+          "tags": [
+            "Cierre",
+            "Robusto"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Revisión de hueco, pendientes y puntos de anclaje."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura, refuerzos y preparación de acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje, ajuste de guías/rodaduras y pruebas de cierre."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-soldadura-04.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-puerta-corredera-obra-02.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-soldadura-05.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-cerramiento-panel-sandwich-nave-03.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-puerta-corredera-obra-01.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-rejas-seguridad-vivienda-01.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica.jpg",
+          "alt": "Puerta corredera metálica a medida | Trabajo en Castellón y alrededores - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cuánto tarda una puerta corredera a medida?",
+          "a": "Depende de medidas, acabado y montaje. Con fotos y medidas te damos un plazo orientativo; si hace falta, hacemos visita."
+        },
+        {
+          "q": "¿Se puede galvanizar?",
+          "a": "Sí. En exterior, el galvanizado es una opción muy recomendable para proteger frente a corrosión."
+        },
+        {
+          "q": "¿Hacéis automatización?",
+          "a": "Podemos dejar la puerta preparada para motorizar o integrar automatismos según el caso."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "¿Necesitas una puerta corredera similar?",
+      "subtitle": "Envíanos fotos del hueco y medidas aproximadas por WhatsApp. Respondemos en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para una puerta corredera metálica a medida en [municipio]. Adjunto fotos y medidas aproximadas: ____ x ____ cm."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

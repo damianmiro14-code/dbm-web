@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/escalera-metalica-interior",
+    "title": "Escalera metálica interior a medida | Caso de éxito DBM",
+    "description": "Caso de éxito: diseño, fabricación e instalación de una escalera metálica interior con peldaños y barandilla. Ajuste en obra y acabado profesional.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Escalera metálica interior",
+      "subheadline": "Caso de ejemplo: escalera a medida con ajuste en obra y acabado uniforme. Adaptación a hueco existente y barandilla segura.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Diseño a medida para tu espacio",
+        "Montaje limpio y preciso",
+        "Acabado lacado o galvanizado"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Puntos clave del proyecto (editable con datos reales).",
+      "items": [
+        {
+          "title": "Estructura y peldaños",
+          "description": "Perfilería metálica y peldaños ajustados al hueco. Opción de madera o chapa antideslizante.",
+          "tags": [
+            "Interior",
+            "A medida"
+          ]
+        },
+        {
+          "title": "Barandilla",
+          "description": "Barandilla con pasamanos y altura normativa, con remates seguros.",
+          "tags": [
+            "Seguridad",
+            "Acabado fino"
+          ]
+        },
+        {
+          "title": "Acabado",
+          "description": "Lacado al horno (color a elegir) o galvanizado + pintura según uso.",
+          "tags": [
+            "Lacado",
+            "Galvanizado"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo lo hacemos",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Tomamos medidas del hueco y definimos la solución (recta, en L, etc.)."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura y comprobación en taller para asegurar el encaje."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación en obra, nivelado y fijación con anclajes adecuados."
+        },
+        {
+          "title": "Remates",
+          "description": "Revisión final y ajuste de barandilla/pasamanos para un acabado perfecto."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-08.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-09.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-05.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-02.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-01.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/escalera-metalica-interior/dbm-escalera-metalica-interior-03.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica.jpg",
+          "alt": "Escalera metálica interior a medida | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Hacéis escaleras a medida para huecos existentes?",
+          "a": "Sí. Medimos y adaptamos la estructura al espacio disponible."
+        },
+        {
+          "q": "¿Se puede lacar en cualquier color?",
+          "a": "Sí, trabajamos con carta de colores. Te recomendamos el acabado según el uso."
+        },
+        {
+          "q": "¿Requiere obra?",
+          "a": "Depende. Muchas instalaciones se realizan con fijaciones y anclajes sin obra significativa."
+        },
+        {
+          "q": "¿Incluís barandilla y pasamanos?",
+          "a": "Sí. Diseñamos la solución completa para seguridad y acabado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto para tu escalera",
+      "subtitle": "Envíanos fotos del hueco y medidas aproximadas. Te orientamos rápido por WhatsApp.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, necesito presupuesto para una escalera metálica interior. Medidas aproximadas: __. Fotos: __. Ubicación: __."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/la-vall-duixo",
+    "title": "Carpintería metálica en la Vall d'Uixó | Estructuras y cerramientos | DBM",
+    "description": "Carpintería metálica en la Vall d'Uixó (Vall de Uxó): estructuras metálicas, cerramientos, puertas y soldadura. Medición y montaje en obra. Presupuesto por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en La Vall d'Uixó",
+      "subheadline": "Servicio en la Vall d'Uixó (Vall de Uxó). Soluciones para vivienda e industria: estructuras, cerramientos, puertas y trabajos en inox.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Estructuras",
+        "Cerramientos",
+        "Respuesta rápida"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en La Vall d'Uixó",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras metálicas para soportes, ampliaciones y refuerzos.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        },
+        {
+          "title": "Cerramientos industriales",
+          "description": "Cerramientos y paramentos para naves y zonas de trabajo.",
+          "href": "/servicios/cerramientos-paramentos-industriales",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas y rejas a medida para accesos y seguridad.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        },
+        {
+          "title": "Panel sándwich",
+          "description": "Cubiertas y cerramientos con panel sándwich según proyecto.",
+          "href": "/servicios/panel-sandwich",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        },
+        {
+          "title": "Montajes industriales",
+          "description": "Montajes y mantenimiento de elementos metálicos en obra.",
+          "href": "/servicios/montajes-industriales",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones y trabajos a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "La Vall d'Uixó"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en La Vall d'Uixó",
+      "items": [
+        {
+          "q": "¿Trabajáis en la Vall d'Uixó (Vall de Uxó)?",
+          "a": "Sí. Atendemos la Vall d'Uixó y alrededores según agenda."
+        },
+        {
+          "q": "¿Hacéis trabajos para naves y negocios?",
+          "a": "Sí. Estructuras, cerramientos, panel sándwich y trabajos a medida."
+        },
+        {
+          "q": "¿Podéis instalar panel sándwich?",
+          "a": "Sí. Panel sándwich para cubierta o cerramiento según necesidad."
+        },
+        {
+          "q": "¿Hacéis puertas metálicas a medida?",
+          "a": "Sí. Puertas correderas o abatibles, rejas y cerramientos."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuesto rápido?",
+          "a": "Fotos, medidas aproximadas y una descripción del trabajo. Planos si existen."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Para trabajos a medida podemos realizar visita y medición."
+        },
+        {
+          "q": "¿Plazos de entrega?",
+          "a": "Te indicamos plazo tras confirmar medidas, materiales y disponibilidad."
+        },
+        {
+          "q": "¿Trabajáis con inox?",
+          "a": "Sí. Inox para barandillas, remates y piezas especiales."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en La Vall d'Uixó y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en La Vall d'Uixó (Vall de Uxó).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

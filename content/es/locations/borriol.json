@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/borriol",
+    "title": "Carpintería metálica en Borriol | Puertas, rejas y soldadura | DBM",
+    "description": "Carpintería metálica en Borriol: puertas y rejas a medida, soldadura, cerramientos y estructuras. Medición y montaje en obra. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Borriol",
+      "subheadline": "Servicio en Borriol y pueblos cercanos. Puertas, rejas y cerramientos a medida, soldadura y estructuras para vivienda y finca. Presupuesto rápido por WhatsApp.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Respuesta rápida",
+        "Puertas y rejas",
+        "Montaje en obra"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Borriol",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas, rejas y cerramientos para parcelas y viviendas en Borriol.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones, refuerzos y trabajos a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Fabricación a medida de estructuras, soportes y elementos metálicos.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Estructuras para porches, pérgolas, soportes y ampliaciones.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Cerraduras y refuerzos",
+          "description": "Refuerzos de seguridad, cerraduras y ajustes de puertas metálicas.",
+          "href": "/servicios/cerraduras-refuerzos",
+          "tags": [
+            "Borriol"
+          ]
+        },
+        {
+          "title": "Inox",
+          "description": "Trabajos en inoxidable para barandillas y remates.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Borriol"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Borriol",
+      "items": [
+        {
+          "q": "¿Trabajáis en Borriol y urbanizaciones cercanas?",
+          "a": "Sí. Atendemos Borriol y alrededores según el tipo de trabajo y la agenda."
+        },
+        {
+          "q": "¿Podéis venir a medir a domicilio?",
+          "a": "Sí. Para puertas, rejas y cerramientos a medida podemos realizar medición en obra."
+        },
+        {
+          "q": "¿Hacéis puertas correderas o abatibles?",
+          "a": "Sí. Fabricamos puertas metálicas correderas o abatibles según el espacio y el uso."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuestar rápido?",
+          "a": "Fotos, medidas aproximadas y una descripción del trabajo. Si hay huecos irregulares, lo vemos en visita."
+        },
+        {
+          "q": "¿Se pueden lacar o galvanizar las piezas?",
+          "a": "Sí. Podemos preparar acabados como lacado o galvanizado según necesidades."
+        },
+        {
+          "q": "¿Hacéis reparaciones de urgencia?",
+          "a": "Depende de disponibilidad. Envíanos fotos y te confirmamos si podemos atenderlo rápido."
+        },
+        {
+          "q": "¿Trabajáis también con inox?",
+          "a": "Sí. Inoxidable para barandillas, remates y piezas expuestas."
+        },
+        {
+          "q": "¿Cuánto tarda la instalación?",
+          "a": "En muchos trabajos, la instalación se realiza en el día una vez fabricado el conjunto."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Borriol y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Borriol.\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

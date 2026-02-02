@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/preguntas-frecuentes",
+    "title": "Preguntas frecuentes | DBM Carpintería Metálica",
+    "description": "Resolvemos dudas habituales sobre presupuestos, plazos, materiales (hierro e inox), montaje, zonas de servicio y garantías. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": ["Mo-Fr 07:00-20:00", "Sa 08:00-14:00"],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Preguntas frecuentes",
+      "subheadline": "Dudas habituales sobre presupuestos, materiales, plazos y montaje. Si lo prefieres, pide presupuesto rápido por WhatsApp.",
+      "primaryCta": { "label": "Presupuesto rápido", "href": "/presupuesto" },
+      "secondaryCta": { "label": "WhatsApp", "href": "https://wa.me/34624356893?text=Hola%2C%20tengo%20una%20consulta%20sobre%20carpinter%C3%ADa%20met%C3%A1lica%20en%20Castell%C3%B3n.%20%..." },
+      "highlights": ["Respuesta el mismo día", "Castellón y alrededores", "Montaje y fabricación"]
+    },
+    {
+      "type": "faq",
+      "id": "faq-presupuestos",
+      "title": "Presupuestos",
+      "items": [
+        {
+          "q": "¿Qué información necesitáis para presupuestar rápido?",
+          "a": "Localidad, fotos del sitio o del trabajo y medidas aproximadas (ancho/alto/largo). Si sabes el material y el acabado (hierro/inox, lacado/galvanizado), mejor."
+        },
+        {
+          "q": "¿Cuánto tardáis en responder?",
+          "a": "Respondemos el mismo día en horario laboral. Si hace falta, te pedimos una o dos fotos extra o una medida concreta para ajustar."
+        },
+        {
+          "q": "¿Hacéis visita para medir?",
+          "a": "Sí. Si el trabajo lo requiere, concertamos visita para tomar medidas y confirmar detalles antes de fabricar o montar."
+        },
+        {
+          "q": "¿El precio es cerrado desde el primer mensaje?",
+          "a": "En muchos trabajos podemos dar un precio estimado con fotos y medidas. El precio final se confirma cuando validamos medidas, acabado y condiciones de montaje."
+        },
+        {
+          "q": "¿Trabajáis con factura?",
+          "a": "Sí. Indícanos si necesitas factura y los datos para prepararla."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq-materiales",
+      "title": "Materiales y acabados",
+      "items": [
+        {
+          "q": "¿Hierro o inox: cuál conviene?",
+          "a": "El hierro es una opción robusta y económica. El inox es ideal para zonas exteriores con humedad/salinidad y para acabados más limpios."
+        },
+        {
+          "q": "¿Inox 304 o 316?",
+          "a": "El 304 es el más habitual. El 316 se recomienda en ambientes marinos o muy corrosivos (costa) por su mayor resistencia a la corrosión."
+        },
+        {
+          "q": "¿Galvanizado, imprimación o lacado?",
+          "a": "Depende del uso y ubicación. El galvanizado protege muy bien en exterior. La imprimación + pintura/lacado es una buena opción si quieres un color concreto."
+        },
+        {
+          "q": "¿Se puede igualar un acabado existente?",
+          "a": "Sí. Si nos envías una foto y nos indicas el acabado (pintura, lacado, inox pulido/satinado), lo adaptamos al entorno."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq-plazos",
+      "title": "Plazos y montaje",
+      "items": [
+        {
+          "q": "¿Qué plazos son habituales?",
+          "a": "Depende del tipo de trabajo y carga de producción. Tras validar medidas, indicamos un plazo estimado de fabricación y montaje."
+        },
+        {
+          "q": "¿Trabajáis en obra y en naves industriales?",
+          "a": "Sí. Realizamos montaje en obra y trabajos en naves/entornos industriales, adaptándonos al acceso y a las condiciones de seguridad."
+        },
+        {
+          "q": "¿Necesitáis acceso o preparación previa?",
+          "a": "En algunos casos sí: acceso despejado, toma de corriente, permisos de obra o elevación. Si hay dificultades, indícalo para estimar tiempos y medios."
+        },
+        {
+          "q": "¿Retiráis material antiguo?",
+          "a": "Podemos retirar o desmontar elementos existentes si lo indicas en la solicitud."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq-zonas",
+      "title": "Zonas de servicio y desplazamiento",
+      "items": [
+        {
+          "q": "¿En qué zonas trabajáis?",
+          "a": "Principalmente Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en la provincia."
+        },
+        {
+          "q": "¿Cobráis desplazamiento?",
+          "a": "Según la distancia y el tipo de trabajo. Indícanos tu localidad para confirmarlo en el presupuesto."
+        },
+        {
+          "q": "¿Hacéis trabajos urgentes?",
+          "a": "Depende de disponibilidad. Si es urgente, dilo al inicio y valoramos opciones."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq-garantia",
+      "title": "Garantía y mantenimiento",
+      "items": [
+        {
+          "q": "¿Ofrecéis garantía?",
+          "a": "Sí. Los trabajos se entregan con garantía legal. Si surge una incidencia, nos escribes por WhatsApp con una foto y lo revisamos."
+        },
+        {
+          "q": "¿Qué mantenimiento necesita una barandilla o reja?",
+          "a": "En hierro, conviene revisar pintura o puntos de óxido con el tiempo. En inox, limpieza periódica con productos adecuados para mantener el acabado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "¿Tienes otra duda?",
+      "subtitle": "Escríbenos por WhatsApp y te respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, tengo una consulta sobre un trabajo de carpintería metálica en Castellón."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

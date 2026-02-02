@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/refuerzo-cerradura-puerta",
+    "title": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM",
+    "description": "Caso de éxito: refuerzo de cerradura y chapa de seguridad en puerta metálica, mejorando robustez y anti-palanca. Trabajo rápido, limpio y a medida.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Refuerzo de cerradura en puerta metálica",
+      "subheadline": "Intervención rápida para reforzar una puerta metálica y mejorar la seguridad. Solución anti-palanca y cierre más sólido.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Trabajo rápido",
+        "Acabado limpio",
+        "Refuerzo a medida"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "items": [
+        {
+          "title": "Objetivo",
+          "description": "Mejorar la seguridad y la robustez del cierre con refuerzos metálicos y ajuste de herrajes.",
+          "tags": [
+            "Seguridad",
+            "Refuerzo"
+          ]
+        },
+        {
+          "title": "Solución",
+          "description": "Placa de refuerzo, ajuste de cerradura y recomendaciones de mantenimiento.",
+          "tags": [
+            "Anti-palanca",
+            "Acabado"
+          ]
+        },
+        {
+          "title": "Tiempo",
+          "description": "Intervención en el día (según disponibilidad y acceso).",
+          "tags": [
+            "Rápido"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/soldadura/dbm-estructura-metalica-altillo-06.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/trabajos-varios/campana-barbacoa.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-soldadura-04.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/soldadura/dbm-soldadura-08.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/trabajos-varios/correas-para-techado.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-puerta-corredera-obra-02.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/trabajos-varios/rejilla-ventilacion.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/puerta-corredera-obra/dbm-soldadura-05.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/trabajos-varios/soporte-pasamano.jpg",
+          "alt": "Refuerzo de cerradura en puerta metálica | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Diagnóstico",
+          "description": "Revisión del tipo de cierre, holguras y puntos débiles."
+        },
+        {
+          "title": "Propuesta",
+          "description": "Recomendación de refuerzos y solución acorde al uso y presupuesto."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación del refuerzo y ajuste fino de la cerradura."
+        },
+        {
+          "title": "Entrega",
+          "description": "Comprobación de cierre, consejos de mantenimiento y uso."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Se puede reforzar sin cambiar la puerta?",
+          "a": "En muchos casos sí: se pueden añadir refuerzos y ajustar herrajes sin sustituir la puerta completa. Lo confirmamos tras ver fotos o en visita."
+        },
+        {
+          "q": "¿Qué necesitáis para valorar el refuerzo?",
+          "a": "Fotos del interior y exterior, tipo de cerradura y una medida aproximada del hueco. Si hace falta, concertamos visita."
+        },
+        {
+          "q": "¿Cuánto tarda?",
+          "a": "Depende del acceso y del tipo de refuerzo. Muchas intervenciones se pueden realizar en el mismo día."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto",
+      "subtitle": "Envíanos fotos de la puerta y la cerradura para orientarte. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, necesito presupuesto para reforzar una cerradura en una puerta metálica. Estoy en _____. Adjunto fotos y medidas aproximadas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

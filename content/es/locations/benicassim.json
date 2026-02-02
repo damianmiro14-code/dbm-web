@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/zonas/benicassim",
+    "title": "Inox y carpintería metálica en Benicàssim (Benicasim) | DBM",
+    "description": "Carpintería metálica en Benicàssim (Benicasim): barandillas inox, cerramientos, puertas y rejas. Acabado para exterior. Presupuesto rápido por WhatsApp.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Carpintería metálica en Benicàssim",
+      "subheadline": "Servicio en Benicàssim (Benicasim). Soluciones para exterior: inox, barandillas, cerramientos y puertas metálicas para chalets, comunidades y negocios.",
+      "primaryCta": {
+        "label": "Presupuesto rápido",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Inox para exterior",
+        "Acabado profesional",
+        "Montaje"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "title": "Servicios más demandados en Benicàssim",
+      "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
+      "items": [
+        {
+          "title": "Inox",
+          "description": "Barandillas, pasamanos y remates en inox para exterior.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Benicàssim"
+          ]
+        },
+        {
+          "title": "Puertas, rejas y cerramientos",
+          "description": "Puertas metálicas y cerramientos para chalets y comunidades.",
+          "href": "/servicios/puertas-rejas-cerramientos",
+          "tags": [
+            "Benicàssim"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Elementos metálicos a medida para viviendas y negocios.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Benicàssim"
+          ]
+        },
+        {
+          "title": "Escaleras metálicas",
+          "description": "Escaleras metálicas y soluciones de acceso a medida.",
+          "href": "/servicios/escaleras-metalicas",
+          "tags": [
+            "Benicàssim"
+          ]
+        },
+        {
+          "title": "Techados y cubiertas",
+          "description": "Estructuras ligeras y soluciones de cubierta según necesidad.",
+          "href": "/servicios/techos-cubiertas",
+          "tags": [
+            "Benicàssim"
+          ]
+        },
+        {
+          "title": "Soldadura",
+          "description": "Soldadura para reparaciones y trabajos a medida.",
+          "href": "/servicios/soldadura",
+          "tags": [
+            "Benicàssim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Cuéntanos el trabajo y la ubicación."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Si hace falta, medimos y definimos materiales."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos",
+      "images": [
+        {
+          "src": "/gallery/1.jpg",
+          "alt": "Trabajo de carpintería metálica"
+        },
+        {
+          "src": "/gallery/2.jpg",
+          "alt": "Instalación metálica"
+        },
+        {
+          "src": "/gallery/3.jpg",
+          "alt": "Cerramiento y estructura"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes en Benicàssim",
+      "items": [
+        {
+          "q": "¿Trabajáis en Benicàssim (Benicasim)?",
+          "a": "Sí. Prestamos servicio en Benicàssim y alrededores según agenda."
+        },
+        {
+          "q": "¿Recomendáis inox para exterior?",
+          "a": "Sí. El inox es una opción excelente para exterior por durabilidad y mantenimiento."
+        },
+        {
+          "q": "¿Hacéis barandillas y pasamanos?",
+          "a": "Sí. Fabricación e instalación de barandillas y pasamanos a medida."
+        },
+        {
+          "q": "¿Podéis hacer cerramientos para terrazas?",
+          "a": "Sí. Cerramientos y estructuras metálicas según el espacio y el uso."
+        },
+        {
+          "q": "¿Qué necesitáis para presupuestar?",
+          "a": "Fotos, medidas aproximadas, y el acabado deseado (inox/lacado)."
+        },
+        {
+          "q": "¿Hacéis medición en obra?",
+          "a": "Sí. Para trabajos a medida podemos ir a medir antes de fabricar."
+        },
+        {
+          "q": "¿Plazos de entrega?",
+          "a": "Te indicamos plazo tras confirmar medidas y materiales."
+        },
+        {
+          "q": "¿Montaje incluido?",
+          "a": "Sí. Fabricamos y montamos para entregar el trabajo terminado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto sin compromiso",
+      "subtitle": "Indica que el trabajo es en Benicàssim y añade fotos/medidas si puedes.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Benicàssim (Benicasim).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

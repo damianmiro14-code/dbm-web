@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/techo-porche-metalico",
+    "title": "Techo metálico para porche | Caso de éxito DBM",
+    "description": "Caso de éxito: fabricación e instalación de techo metálico para porche con estructura a medida, refuerzos y acabado protegido para exterior. Montaje limpio y rápido.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Techo metálico para porche",
+      "subheadline": "Caso tipo: estructura metálica a medida para porche, pensada para exterior, con refuerzos y acabado protegido. Medición, fabricación y montaje en obra.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Estructura a medida",
+        "Refuerzos y estabilidad",
+        "Acabado protegido para exterior"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Detalles principales del proyecto (sustituye por datos reales si procede).",
+      "items": [
+        {
+          "title": "Estructura",
+          "description": "Perfilería y uniones soldadas para rigidez y durabilidad en exterior.",
+          "tags": [
+            "Exterior",
+            "A medida"
+          ]
+        },
+        {
+          "title": "Cubierta",
+          "description": "Solución de cubierta según necesidad (p. ej. panel sándwich, chapa o policarbonato) y remates para evitar filtraciones.",
+          "tags": [
+            "Protección",
+            "Remates"
+          ]
+        },
+        {
+          "title": "Acabado",
+          "description": "Imprimación + pintura o galvanizado (según exposición) para protección anticorrosión.",
+          "tags": [
+            "Anticorrosión",
+            "Acabado"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Revisión de apoyos, nivelado, evacuación de agua y puntos de anclaje."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte, soldadura, refuerzos y preparación del acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje, anclajes, remates de cubierta y comprobación final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-04.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-05.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-02.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-06.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-03.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-techo-porche-metalico-01.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-soldadura-02.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/techo-porche-metalico/dbm-puerta-corredera-obra-05.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Techo metálico para porche | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Qué necesitáis para presupuestar un porche?",
+          "a": "Con fotos del lugar, medidas aproximadas y una breve idea de la cubierta (panel, chapa, etc.) podemos orientarte. Si hace falta, hacemos visita."
+        },
+        {
+          "q": "¿Recomendáis galvanizado o pintura?",
+          "a": "Depende de la exposición y el uso. Para exterior exigente, el galvanizado suele ser una buena opción; también se puede imprimar y pintar con sistema adecuado."
+        },
+        {
+          "q": "¿Cuánto se tarda en montar?",
+          "a": "Depende de tamaño y accesos. Con la información básica te damos un plazo orientativo y coordinamos visita si es necesario."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "¿Necesitas un techo para porche similar?",
+      "subtitle": "Envíanos fotos y medidas aproximadas por WhatsApp. Respondemos en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para un techo metálico para porche en [municipio]. Adjunto fotos y medidas aproximadas: ____ x ____ cm."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/servicios/escaleras-metalicas",
+    "title": "Escaleras metálicas en Castellón | DBM",
+    "description": "Escaleras metálicas interiores y exteriores a medida en Castellón. Resistentes, funcionales y con buen acabado.",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Escaleras metálicas",
+      "subheadline": "Escaleras metálicas a medida para interior y exterior, con estructura resistente.",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "#contacto"
+      },
+      "secondaryCta": {
+        "label": "Ver todos los servicios",
+        "href": "/servicios"
+      },
+      "highlights": [
+        "Acabado fino",
+        "Cumplimos plazos",
+        "Atención directa"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "detalle",
+      "title": "Qué incluye",
+      "subtitle": "Opciones habituales (adaptamos a tu caso).",
+      "items": [
+        {
+          "title": "Interior",
+          "description": "Escaleras para viviendas, locales y naves.",
+          "tags": [
+            "Interior",
+            "A medida"
+          ]
+        },
+        {
+          "title": "Exterior",
+          "description": "Soluciones resistentes para intemperie.",
+          "tags": [
+            "Exterior",
+            "Durabilidad"
+          ]
+        },
+        {
+          "title": "Barandillas",
+          "description": "Barandillas y remates para seguridad.",
+          "tags": [
+            "Seguridad",
+            "Acabados"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Proceso",
+      "steps": [
+        {
+          "title": "Contacto",
+          "description": "Nos cuentas el trabajo y resolvemos dudas."
+        },
+        {
+          "title": "Medición y presupuesto",
+          "description": "Definimos materiales y entregamos un presupuesto claro."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Fabricamos en taller cuidando el acabado."
+        },
+        {
+          "title": "Instalación",
+          "description": "Montaje en obra y entrega final."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Trabajos relacionados",
+      "images": [
+        {
+          "src": "/images/work/categorized/escaleras-metalicas/dbm-escaleras-barandilla-cristal-interior-01.jpg",
+          "alt": "Escaleras metálicas en Castellón | DBM - barandilla de cristal (foto 1)"
+        },
+        {
+          "src": "/images/work/categorized/escaleras-metalicas/dbm-escaleras-escalera-interior-barandilla-cristal-02.jpg",
+          "alt": "Escaleras metálicas en Castellón | DBM - escalera interior (foto 2)"
+        },
+        {
+          "src": "/images/work/categorized/escaleras-metalicas/dbm-escaleras-escalera-metalica-iluminacion-led-03.jpg",
+          "alt": "Escaleras metálicas en Castellón | DBM - escalera con iluminación LED (foto 3)"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Hacéis escaleras a medida?",
+          "a": "Sí. Diseñamos según altura, huella, espacio y uso."
+        },
+        {
+          "q": "¿Instaláis en obra?",
+          "a": "Sí, fabricamos en taller y realizamos la instalación final."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "otros-servicios",
+      "title": "Otros servicios",
+      "subtitle": "También podemos ayudarte con:",
+      "items": [
+        {
+          "title": "Inox",
+          "description": "Servicio de inox en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/inox",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Carpintería metálica a medida",
+          "description": "Servicio de carpintería metálica a medida en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/carpinteria-metalica-a-medida",
+          "tags": [
+            "Castellón"
+          ]
+        },
+        {
+          "title": "Estructuras metálicas",
+          "description": "Servicio de estructuras metálicas en Castellón. Ver detalles y pedir presupuesto.",
+          "href": "/servicios/estructuras-metalicas",
+          "tags": [
+            "Castellón"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide tu presupuesto sin compromiso",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de Escaleras metálicas en Castellón.\nTrabajo: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}

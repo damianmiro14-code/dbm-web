@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "locale": "es-ES",
+    "slug": "/trabajos/rejas-seguridad-vivienda",
+    "title": "Rejas de seguridad a medida | Caso de éxito DBM",
+    "description": "Caso de éxito: fabricación e instalación de rejas de seguridad a medida con acabado lacado. Medición en obra, fabricación en taller y montaje...",
+    "ogImage": "/og.jpg"
+  },
+  "business": {
+    "name": "DBM Carpintería Metálica",
+    "phone": "+34 624 356 893",
+    "email": "dbmmultiservicios24@gmail.com",
+    "address": {
+      "street": "Carrer de Francia, 76",
+      "city": "Castelló de la Plana",
+      "region": "Castelló",
+      "postalCode": "12006",
+      "country": "ES"
+    },
+    "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 08:00-14:00"
+    ],
+    "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
+    "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "headline": "Rejas de seguridad a medida",
+      "subheadline": "Diseño y montaje de rejas para vivienda con buen acabado y cierre robusto. Caso de ejemplo (sustituye por tus fotos reales).",
+      "primaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "/presupuesto"
+      },
+      "secondaryCta": {
+        "label": "Ver más trabajos",
+        "href": "/trabajos"
+      },
+      "highlights": [
+        "Medición en obra",
+        "Lacado / acabado a elegir",
+        "Montaje limpio y rápido"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "resumen",
+      "title": "Resumen del trabajo",
+      "subtitle": "Puntos clave de este caso.",
+      "items": [
+        {
+          "title": "Tipo",
+          "description": "Rejas fijas / practicables según hueco.",
+          "tags": [
+            "Seguridad"
+          ]
+        },
+        {
+          "title": "Material",
+          "description": "Acero con tratamiento anticorrosión.",
+          "tags": [
+            "Acero"
+          ]
+        },
+        {
+          "title": "Acabado",
+          "description": "Lacado (color a elegir) o galvanizado.",
+          "tags": [
+            "Acabado"
+          ]
+        },
+        {
+          "title": "Instalación",
+          "description": "Anclajes y remate para un acabado discreto.",
+          "tags": [
+            "Montaje"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "title": "Imágenes del trabajo",
+      "images": [
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-barandilla-inox-terraza-01.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 1"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-rejas-seguridad-vivienda-02.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 2"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-puerta-corredera-obra-04.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 3"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-escalera-metalica-interior-06.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 4"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-puerta-corredera-obra-10.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 5"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-refuerzo-cerradura-puerta-01.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 6"
+        },
+        {
+          "src": "/images/work/categorized/rejas-seguridad-vivienda/dbm-rejas-seguridad-vivienda-03.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 7"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-hierro-mazizo.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 8"
+        },
+        {
+          "src": "/images/work/categorized/barandilla-inox-terraza/barandilla-metalica-2.jpg",
+          "alt": "Rejas de seguridad a medida | Caso de éxito DBM - foto 9"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "id": "proceso",
+      "title": "Cómo lo hacemos",
+      "steps": [
+        {
+          "title": "Medición",
+          "description": "Tomamos medidas y definimos puntos de anclaje."
+        },
+        {
+          "title": "Fabricación",
+          "description": "Corte y soldadura en taller con control de escuadras."
+        },
+        {
+          "title": "Acabado",
+          "description": "Tratamiento anticorrosión y acabado final."
+        },
+        {
+          "title": "Montaje",
+          "description": "Instalación y remates para dejarlo listo."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Se pueden hacer practicables?",
+          "a": "Sí. Podemos integrar hojas practicables o sistemas de apertura según el hueco."
+        },
+        {
+          "q": "¿Qué acabado es mejor?",
+          "a": "Depende del entorno. Galvanizado para exterior exigente y lacado para acabado estético."
+        },
+        {
+          "q": "¿Cuánto tardáis?",
+          "a": "Según medidas y acabado. Te damos plazo por escrito al confirmar."
+        },
+        {
+          "q": "¿Hacéis instalación?",
+          "a": "Sí. Dejamos todo montado y rematado."
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "title": "Pide presupuesto",
+      "subtitle": "Envíanos fotos del hueco, medidas aproximadas y el acabado que buscas.",
+      "whatsapp": {
+        "phoneE164": "+34624356893",
+        "defaultMessage": "Hola, quiero presupuesto para rejas de seguridad a medida. Envío fotos y medidas."
+      },
+      "fields": {
+        "nameLabel": "Nombre",
+        "phoneLabel": "Teléfono",
+        "emailLabel": "Email",
+        "messageLabel": "Descripción del trabajo",
+        "consentLabel": "Acepto la política de privacidad"
+      },
+      "submitLabel": "Enviar"
+    }
+  ]
+}
