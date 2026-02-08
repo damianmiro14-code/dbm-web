@@ -1,4 +1,4 @@
-{
+﻿{
   "business": {
     "name": "DBM Carpintería Metálica",
     "phone": "+34 624 356 893",
@@ -12,8 +12,8 @@
     },
     "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
     "openingHours": [
-      "Mo-Fr 07:00-20:00",
-      "Sa 08:00-14:00"
+      "L-V 07:00-20:00",
+      "S 08:00-14:00"
     ],
     "socialLinks": [
       {

@@ -1,9 +1,9 @@
-{
+﻿{
   "meta": {
     "locale": "es-ES",
     "slug": "/zonas/sant-joan-de-moro",
-    "title": "Carpintería metálica en Sant Joan de Moró | Puertas y estructuras | DBM",
-    "description": "Carpintería metálica en Sant Joan de Moró (San Juan de Moró): puertas, rejas, cerramientos y estructuras. Soldadura e inox. Presupuesto rápido por WhatsApp.",
+    "title": "Carpintería metálica en Snt Joan de Moró | Puertas y estructuras | DBM",
+    "description": "Carpintería metálica en Snt Joan de Moró (Sn Juan de Moró): puertas, rejas, cerramientos y estructuras. Soldadura e inox. Presupuesto rápido por WhatsApp.",
     "ogImage": "/og.jpg"
   },
   "business": {
@@ -19,8 +19,8 @@
     },
     "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
     "openingHours": [
-      "Mo-Fr 07:00-20:00",
-      "Sa 08:00-14:00"
+      "L-V 07:00-20:00",
+      "S 08:00-14:00"
     ],
     "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
     "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
@@ -29,8 +29,8 @@
     {
       "type": "hero",
       "id": "hero",
-      "headline": "Carpintería metálica en Sant Joan de Moró",
-      "subheadline": "Servicio en Sant Joan de Moró (San Juan de Moró) y alrededores. Puertas, rejas y estructuras a medida, soldadura y trabajos en inox.",
+      "headline": "Carpintería metálica en Snt Joan de Moró",
+      "subheadline": "Servicio en Snt Joan de Moró (Sn Juan de Moró) y alrededores. Puertas, rejas y estructuras a medida, soldadura y trabajos en inox.",
       "primaryCta": {
         "label": "Presupuesto rápido",
         "href": "/presupuesto"
@@ -48,15 +48,15 @@
     {
       "type": "services",
       "id": "servicios",
-      "title": "Servicios más demandados en Sant Joan de Moró",
+      "title": "Servicios más demandados en Snt Joan de Moró",
       "subtitle": "Elige un servicio para ver detalles y pedir presupuesto con datos básicos (fotos y medidas si puedes).",
       "items": [
         {
           "title": "Puertas, rejas y cerramientos",
-          "description": "Puertas y rejas a medida para viviendas y fincas en Sant Joan de Moró.",
+          "description": "Puertas y rejas a medida para viviendas y fincas en Snt Joan de Moró.",
           "href": "/servicios/puertas-rejas-cerramientos",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         },
         {
@@ -64,7 +64,7 @@
           "description": "Soldadura para reparaciones y fabricación de piezas a medida.",
           "href": "/servicios/soldadura",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         },
         {
@@ -72,7 +72,7 @@
           "description": "Estructuras metálicas para soportes, porches y ampliaciones.",
           "href": "/servicios/estructuras-metalicas",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         },
         {
@@ -80,7 +80,7 @@
           "description": "Trabajos en inoxidable para barandillas y remates.",
           "href": "/servicios/inox",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         },
         {
@@ -88,7 +88,7 @@
           "description": "Soluciones a medida para necesidades específicas en obra.",
           "href": "/servicios/carpinteria-metalica-a-medida",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         },
         {
@@ -96,7 +96,7 @@
           "description": "Mejoras de seguridad y refuerzos en accesos metálicos.",
           "href": "/servicios/cerraduras-refuerzos",
           "tags": [
-            "Sant Joan de Moró"
+            "Snt Joan de Moró"
           ]
         }
       ]
@@ -146,10 +146,10 @@
     {
       "type": "faq",
       "id": "faq",
-      "title": "Preguntas frecuentes en Sant Joan de Moró",
+      "title": "Preguntas frecuentes en Snt Joan de Moró",
       "items": [
         {
-          "q": "¿Trabajáis en Sant Joan de Moró (San Juan de Moró)?",
+          "q": "¿Trabajáis en Snt Joan de Moró (Sn Juan de Moró)?",
           "a": "Sí. Damos servicio en el municipio y zonas cercanas según agenda."
         },
         {
@@ -186,10 +186,10 @@
       "type": "contact",
       "id": "contacto",
       "title": "Pide presupuesto sin compromiso",
-      "subtitle": "Indica que el trabajo es en Sant Joan de Moró y añade fotos/medidas si puedes.",
+      "subtitle": "Indica que el trabajo es en Snt Joan de Moró y añade fotos/medidas si puedes.",
       "whatsapp": {
         "phoneE164": "+34624356893",
-        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Sant Joan de Moró (San Juan de Moró).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
+        "defaultMessage": "Hola, soy ____ y necesito presupuesto de carpintería metálica en Snt Joan de Moró (Sn Juan de Moró).\nTrabajo: ____\nUbicación: ____\nMedidas aprox.: ____\nMaterial/acabado: ____\nPuedo enviar fotos."
       },
       "fields": {
         "nameLabel": "Nombre",
@@ -202,3 +202,4 @@
     }
   ]
 }
+
