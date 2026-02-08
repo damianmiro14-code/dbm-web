@@ -1,4 +1,4 @@
-import Container from "@/components/ui/Container";
+﻿import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import Image from "next/image";
 import { existsSync } from "fs";
@@ -56,13 +56,13 @@ export default function HomePage() {
 
               <div className="mt-6 flex flex-wrap gap-2">
                 <span className="inline-flex items-center rounded-full border border-brand/20 bg-brand/10 px-3 py-1 text-sm text-brand">
-                  WhatsApp-first
+                  Respuesta por WhatsApp
                 </span>
                 <span className="inline-flex items-center rounded-full border border-brand/20 bg-brand/10 px-3 py-1 text-sm text-brand">
-                  Trabajos reales
+                  Trabajos verificados
                 </span>
                 <span className="inline-flex items-center rounded-full border border-brand/20 bg-brand/10 px-3 py-1 text-sm text-brand">
-                  Provincia de Castellón
+                  Castellón y provincia
                 </span>
               </div>
 
@@ -135,3 +135,4 @@ export default function HomePage() {
     </Container>
   );
 }
+
