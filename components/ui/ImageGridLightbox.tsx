@@ -85,7 +85,7 @@ export default function ImageGridLightbox({
 
       {current ? (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4"
+          className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/75 p-4"
           role="dialog"
           aria-modal="true"
           aria-label="Imagen ampliada"

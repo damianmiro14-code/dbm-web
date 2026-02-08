@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -91,7 +92,9 @@ const SERVICES: ServiceItem[] = [
 
 export default function SiteHeader({ business }: { business?: Business }) {
   const pathname = usePathname();
+  const headerRef = useRef<HTMLElement | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [servicesDismissed, setServicesDismissed] = useState(false);
   const [quickOpen, setQuickOpen] = useState(false);
@@ -108,9 +111,40 @@ export default function SiteHeader({ business }: { business?: Business }) {
   // Cierra menús al navegar entre páginas.
   useEffect(() => {
     setMenuOpen(false);
+    setMobileServicesOpen(false);
     setServicesOpen(false);
     setServicesDismissed(false);
   }, [pathname]);
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el || typeof window === "undefined") return;
+
+    const setVar = () => {
+      const h = Math.ceil(el.getBoundingClientRect().height);
+      document.documentElement.style.setProperty("--site-header-h", `${h}px`);
+    };
+
+    setVar();
+
+    const ro = new ResizeObserver(() => setVar());
+    ro.observe(el);
+    window.addEventListener("resize", setVar);
+
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", setVar);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!menuOpen || typeof document === "undefined") return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [menuOpen]);
+
 
   const b = business;
   const phone = b?.phone ?? "+34 624 356 893";
@@ -185,10 +219,10 @@ export default function SiteHeader({ business }: { business?: Business }) {
         IMPORTANT: do not use `overflow-hidden` on the fixed header.
         The desktop “Servicios” dropdown is absolutely positioned and would be clipped.
       */}
-      <header className="fixed top-0 left-0 right-0 z-[100] w-full border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+      <header ref={headerRef} className="fixed top-0 left-0 right-0 z-[100] w-full border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
         <div aria-hidden="true" className="h-1 w-full bg-gradient-to-r from-accent via-brand to-accent" />
         <Container>
-          <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-3 py-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-3 py-2">
           {/* Left: Logo */}
           <div className="flex items-center">
             <Link href="/" aria-label="Ir a inicio" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-3">
@@ -197,7 +231,7 @@ export default function SiteHeader({ business }: { business?: Business }) {
                 alt={b?.name ?? "DBM"}
                 width={160}
                 height={160}
-                className="h-[104px] w-[104px] md:h-[160px] md:w-[160px]"
+                className="h-[72px] w-[72px] md:h-[160px] md:w-[160px]"
                 priority
               />
             </Link>
@@ -372,56 +406,100 @@ export default function SiteHeader({ business }: { business?: Business }) {
         </div>
 
         {/* Mobile dropdown menu */}
-        {menuOpen ? (
-          <div className="md:hidden pb-4">
-            <div className="grid gap-2 rounded-2xl border border-border p-3 bg-white">
-              {navItems.map((i) => (
-                <Link
-                  key={i.href}
-                  href={i.href}
-                  className={mobileLinkClass(i.href)}
-                  aria-current={isActive(i.href) ? "page" : undefined}
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {i.label}
-                </Link>
-              ))}
+        {typeof document !== "undefined" && menuOpen
+          ? createPortal(
+              <div
+                className="md:hidden fixed left-0 right-0 bottom-0 z-[9100]"
+                style={{ top: "var(--site-header-h, 136px)" }}
+              >
+                <div className="absolute inset-0 bg-white border-t border-border">
+                  <div className="h-full overflow-y-auto overscroll-contain p-4 pb-8">
+                    <div className="grid gap-2 rounded-2xl border border-border p-3 bg-white">
+                      {navItems
+                        .filter((i) => i.label !== "Servicios")
+                        .map((i) => (
+                          <Link
+                            key={i.href}
+                            href={i.href}
+                            className={mobileLinkClass(i.href)}
+                            aria-current={isActive(i.href) ? "page" : undefined}
+                            onClick={() => {
+                              setMenuOpen(false);
+                              setMobileServicesOpen(false);
+                            }}
+                          >
+                            {i.label}
+                          </Link>
+                        ))}
 
-              <div className="mt-1 rounded-xl border border-border p-2">
-                <p className="px-1 py-1 text-xs font-semibold opacity-70">Servicios</p>
-                <div className="grid gap-1">
-                  {SERVICES.map((s) => (
-                    <Link
-                      key={s.href}
-                      href={s.href}
-                      className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      {s.label}
-                    </Link>
-                  ))}
+                      <div className="mt-1 rounded-xl border border-border p-2">
+                        <button
+                          type="button"
+                          className="w-full rounded-xl px-3 py-2 text-left text-sm font-semibold opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                          aria-expanded={mobileServicesOpen}
+                          onClick={() => setMobileServicesOpen((v) => !v)}
+                        >
+                          Servicios
+                        </button>
+
+                        {mobileServicesOpen ? (
+                          <div className="mt-2 grid gap-1">
+                            <Link
+                              href="/servicios"
+                              className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                              onClick={() => {
+                                setMenuOpen(false);
+                                setMobileServicesOpen(false);
+                              }}
+                            >
+                              Ver todos los servicios
+                            </Link>
+
+                            <div className="my-1 h-px bg-slate-200" />
+
+                            {SERVICES.map((s) => (
+                              <Link
+                                key={s.href}
+                                href={s.href}
+                                className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                                onClick={() => {
+                                  setMenuOpen(false);
+                                  setMobileServicesOpen(false);
+                                }}
+                              >
+                                {s.label}
+                              </Link>
+                            ))}
+                          </div>
+                        ) : null}
+                      </div>
+
+                      {b?.mapsUrl ? (
+                        <a
+                          className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                          href={b.mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => {
+                            setMenuOpen(false);
+                            setMobileServicesOpen(false);
+                          }}
+                        >
+                          Cómo llegar
+                        </a>
+                      ) : null}
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              {b?.mapsUrl ? (
-                <a
-                  className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
-                  href={b.mapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Cómo llegar
-                </a>
-              ) : null}
-            </div>
-          </div>
-        ) : null}
+              </div>,
+              document.body
+            )
+          : null}
         </Container>
       </header>
 
       {/* Spacer para que el contenido no quede oculto bajo el header fijo */}
-      <div aria-hidden className="h-[136px] md:h-[192px]" />
+      <div aria-hidden style={{ height: "var(--site-header-h, 136px)" }} />
 
       <WhatsAppQuickModal
         open={quickOpen}
