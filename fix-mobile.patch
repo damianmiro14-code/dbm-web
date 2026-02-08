@@ -1,0 +1,220 @@
+﻿diff --git a/components/SiteHeader.tsx b/components/SiteHeader.tsx
+index 0b6e4a1..6d9f3a7 100644
+--- a/components/SiteHeader.tsx
++++ b/components/SiteHeader.tsx
+@@ -95,6 +95,7 @@ export default function SiteHeader({ business }: { business?: Business }) {
+   const [menuOpen, setMenuOpen] = useState(false);
+   const [servicesOpen, setServicesOpen] = useState(false);
+   const [servicesDismissed, setServicesDismissed] = useState(false);
+   const [quickOpen, setQuickOpen] = useState(false);
++  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+ 
+   const dismissServices = () => {
+     setServicesOpen(false);
+@@ -109,10 +110,23 @@ export default function SiteHeader({ business }: { business?: Business }) {
+   useEffect(() => {
+     setMenuOpen(false);
+     setServicesOpen(false);
+     setServicesDismissed(false);
++    setMobileServicesOpen(false);
+   }, [pathname]);
+ 
++  // Evita que el body scrollee cuando el panel móvil está abierto (scroll interno).
++  useEffect(() => {
++    if (!menuOpen) return;
++    const prev = document.body.style.overflow;
++    document.body.style.overflow = "hidden";
++    return () => {
++      document.body.style.overflow = prev;
++    };
++  }, [menuOpen]);
++
+   const b = business;
+   const phone = b?.phone ?? "+34 624 356 893";
+@@ -185,7 +199,7 @@ export default function SiteHeader({ business }: { business?: Business }) {
+       */}
+       <header className="fixed top-0 left-0 right-0 z-[100] w-full border-b border-slate-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+         <div aria-hidden="true" className="h-1 w-full bg-gradient-to-r from-accent via-brand to-accent" />
+         <Container>
+-          <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-3 py-3">
++          <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-3 py-2">
+           {/* Left: Logo */}
+           <div className="flex items-center">
+             <Link href="/" aria-label="Ir a inicio" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-3">
+               <Image
+                 src="/logo.png"
+                 alt={b?.name ?? "DBM"}
+                 width={160}
+                 height={160}
+-                className="h-[104px] w-[104px] md:h-[160px] md:w-[160px]"
++                className="h-[64px] w-[64px] md:h-[160px] md:w-[160px]"
+                 priority
+               />
+             </Link>
+@@ -353,60 +367,98 @@ export default function SiteHeader({ business }: { business?: Business }) {
+           </div>
+         </div>
+ 
+         {/* Mobile dropdown menu */}
+         {menuOpen ? (
+-          <div className="md:hidden pb-4">
+-            <div className="grid gap-2 rounded-2xl border border-border p-3 bg-white">
+-              {navItems.map((i) => (
+-                <Link
+-                  key={i.href}
+-                  href={i.href}
+-                  className={mobileLinkClass(i.href)}
+-                  aria-current={isActive(i.href) ? "page" : undefined}
+-                  onClick={() => setMenuOpen(false)}
+-                >
+-                  {i.label}
+-                </Link>
+-              ))}
+-
+-              <div className="mt-1 rounded-xl border border-border p-2">
+-                <p className="px-1 py-1 text-xs font-semibold opacity-70">Servicios</p>
+-                <div className="grid gap-1">
+-                  {SERVICES.map((s) => (
+-                    <Link
+-                      key={s.href}
+-                      href={s.href}
+-                      className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+-                      onClick={() => setMenuOpen(false)}
+-                    >
+-                      {s.label}
+-                    </Link>
+-                  ))}
+-                </div>
+-              </div>
+-
+-              {b?.mapsUrl ? (
+-                <a
+-                  className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+-                  href={b.mapsUrl}
+-                  target="_blank"
+-                  rel="noopener noreferrer"
+-                  onClick={() => setMenuOpen(false)}
+-                >
+-                  Cómo llegar
+-                </a>
+-              ) : null}
+-            </div>
+-          </div>
++          <div className="md:hidden fixed inset-0 z-[90]">
++            {/* Backdrop */}
++            <button
++              type="button"
++              aria-label="Cerrar menú"
++              className="absolute inset-0 bg-black/20"
++              onClick={() => {
++                setMenuOpen(false);
++                setMobileServicesOpen(false);
++              }}
++            />
++
++            {/* Panel (debajo del header) */}
++            <div className="absolute left-0 right-0 top-[92px] bottom-0 bg-white border-t border-border">
++              <div className="h-full overflow-y-auto overscroll-contain p-4 pb-8">
++                <div className="grid gap-2 rounded-2xl border border-border p-3 bg-white">
++                  {/* Links principales (sin Servicios) */}
++                  {navItems
++                    .filter((i) => i.label !== "Servicios")
++                    .map((i) => (
++                      <Link
++                        key={i.href}
++                        href={i.href}
++                        className={mobileLinkClass(i.href)}
++                        aria-current={isActive(i.href) ? "page" : undefined}
++                        onClick={() => {
++                          setMenuOpen(false);
++                          setMobileServicesOpen(false);
++                        }}
++                      >
++                        {i.label}
++                      </Link>
++                    ))}
++
++                  {/* Servicios (colapsado por defecto) */}
++                  <div className="mt-1 rounded-xl border border-border p-2">
++                    <button
++                      type="button"
++                      className="w-full rounded-xl px-3 py-2 text-left text-sm font-semibold opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
++                      aria-expanded={mobileServicesOpen}
++                      onClick={() => setMobileServicesOpen((v) => !v)}
++                    >
++                      Servicios
++                    </button>
++
++                    {mobileServicesOpen ? (
++                      <div className="mt-2 grid gap-1">
++                        <Link
++                          href="/servicios"
++                          className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
++                          onClick={() => {
++                            setMenuOpen(false);
++                            setMobileServicesOpen(false);
++                          }}
++                        >
++                          Ver todos los servicios
++                        </Link>
++                        <div className="my-1 h-px bg-slate-200" />
++                        {SERVICES.map((s) => (
++                          <Link
++                            key={s.href}
++                            href={s.href}
++                            className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
++                            onClick={() => {
++                              setMenuOpen(false);
++                              setMobileServicesOpen(false);
++                            }}
++                          >
++                            {s.label}
++                          </Link>
++                        ))}
++                      </div>
++                    ) : null}
++                  </div>
++
++                  {b?.mapsUrl ? (
++                    <a
++                      className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
++                      href={b.mapsUrl}
++                      target="_blank"
++                      rel="noopener noreferrer"
++                      onClick={() => {
++                        setMenuOpen(false);
++                        setMobileServicesOpen(false);
++                      }}
++                    >
++                      Cómo llegar
++                    </a>
++                  ) : null}
++                </div>
++              </div>
++            </div>
++          </div>
+         ) : null}
+         </Container>
+       </header>
+ 
+       {/* Spacer para que el contenido no quede oculto bajo el header fijo */}
+-      <div aria-hidden className="h-[136px] md:h-[192px]" />
++      <div aria-hidden className="h-[92px] md:h-[192px]" />
+diff --git a/components/ui/ImageGridLightbox.tsx b/components/ui/ImageGridLightbox.tsx
+index 3a9d1c2..7b2a1e0 100644
+--- a/components/ui/ImageGridLightbox.tsx
++++ b/components/ui/ImageGridLightbox.tsx
+@@ -70,7 +70,7 @@ export default function ImageGridLightbox({
+ 
+       {current ? (
+         <div
+-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4"
++          className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/75 p-4"
+           role="dialog"
+           aria-modal="true"
+           aria-label="Imagen ampliada"
+@@ -131,4 +131,4 @@ export default function ImageGridLightbox({
+       ) : null}
+     </>
+   );
+ }

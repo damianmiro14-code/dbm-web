@@ -1,0 +1,50 @@
+﻿{/* Mobile dropdown menu */}
+        {menuOpen ? (
+          <div className="md:hidden pb-4">
+            <div className="grid gap-2 rounded-2xl border border-border p-3 bg-white">
+              {navItems.map((i) => (
+                <Link
+                  key={i.href}
+                  href={i.href}
+                  className={mobileLinkClass(i.href)}
+                  aria-current={isActive(i.href) ? "page" : undefined}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {i.label}
+                </Link>
+              ))}
+
+              <div className="mt-1 rounded-xl border border-border p-2">
+                <p className="px-1 py-1 text-xs font-semibold opacity-70">Servicios</p>
+                <div className="grid gap-1">
+                  {SERVICES.map((s) => (
+                    <Link
+                      key={s.href}
+                      href={s.href}
+                      className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      {s.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              {b?.mapsUrl ? (
+                <a
+                  className="rounded-xl px-3 py-2 text-sm opacity-90 hover:opacity-100 hover:bg-brand/5 transition-colors duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+                  href={b.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Cómo llegar
+                </a>
+              ) : null}
+            </div>
+          </div>
+        ) : null}
+        </Container>
+      </header>
+
+      

@@ -1,0 +1,34 @@
+warning: in the working copy of 'components/ui/ImageGridLightbox.tsx', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/components/ui/ImageGridLightbox.tsx b/components/ui/ImageGridLightbox.tsx[m
+[1mindex ab41cb9..defa19e 100644[m
+[1m--- a/components/ui/ImageGridLightbox.tsx[m
+[1m+++ b/components/ui/ImageGridLightbox.tsx[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-"use client";[m
+[32m+[m[32m﻿"use client";[m
+ [m
+ import Image from "next/image";[m
+ import { useEffect, useMemo, useState } from "react";[m
+[36m@@ -13,7 +13,7 @@[m [mexport default function ImageGridLightbox({[m
+   colsClassName = "md:grid-cols-3",[m
+   thumbAspectClassName = "aspect-[4/3]",[m
+   className = "",[m
+[31m-  // Default ON so every lightbox (galerías + /trabajos + previews) has arrows + counter.[m
+[32m+[m[32m  // Default ON so every lightbox (galerÃ­as + /trabajos + previews) has arrows + counter.[m
+   enableNavigation = true,[m
+   showCounter = true,[m
+ }: {[m
+[36m@@ -85,7 +85,7 @@[m [mexport default function ImageGridLightbox({[m
+ [m
+       {current ? ([m
+         <div[m
+[31m-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4"[m
+[32m+[m[32m          className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/75 p-4"[m
+           role="dialog"[m
+           aria-modal="true"[m
+           aria-label="Imagen ampliada"[m
+[36m@@ -156,3 +156,4 @@[m [mexport default function ImageGridLightbox({[m
+     </>[m
+   );[m
+ }[m
+[41m+[m
