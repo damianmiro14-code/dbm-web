@@ -32,8 +32,8 @@
       "headline": "Carpintería metálica en Castellón y alrededores",
       "subheadline": "Fabricación, soldadura e instalación de soluciones metálicas a medida para particulares, empresas e industria. Trabajos finos, plazos cumplidos y atención directa.",
       "primaryCta": {
-        "label": "Pedir presupuesto por WhatsApp",
-        "href": "https://wa.me/34624356893?text=Hola%2C%20soy%20____%20y%20necesito%20presupuesto%20para%20un%20trabajo%20de%20carpinter%C3%ADa%20met%C3%A1lica%20en%20Castell%C3%B3n.%20Puedo%20enviar%20fotos%20y%20medidas."
+        "label": "Pedir presupuesto",
+        "href": "/presupuesto"
       },
       "secondaryCta": {
         "label": "Llamar ahora",
