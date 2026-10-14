@@ -16,19 +16,19 @@ type Props = {
 
 export default function RouteChrome({ children, business }: Props) {
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isV2 = pathname === "/" || pathname === "/servicios";
 
   return (
     <>
-      {isHome
+      {isV2
         ? <HomeV2Header business={business} />
         : <SiteHeader business={business} />}
 
-      <main className={isHome ? "" : "pb-6 md:pb-0"}>
+      <main className={isV2 ? "" : "pb-6 md:pb-0"}>
         {children}
       </main>
 
-      {isHome
+      {isV2
         ? <HomeV2Footer business={business} />
         : <SiteFooter business={business} />}
     </>
