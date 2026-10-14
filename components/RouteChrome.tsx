@@ -16,7 +16,7 @@ type Props = {
 
 export default function RouteChrome({ children, business }: Props) {
   const pathname = usePathname();
-  const isV2 = pathname === "/" || pathname === "/servicios";
+  const isV2 = pathname === "/" || pathname === "/servicios" || pathname === "/trabajos";
 
   return (
     <>
