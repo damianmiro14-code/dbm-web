@@ -3,7 +3,7 @@
     "locale": "es-ES",
     "slug": "/opiniones",
     "title": "Opiniones de clientes | DBM Carpintería Metálica",
-    "description": "Opiniones reales sobre DBM Carpintería Metálica en Castellón: atención, acabados y cumplimiento de plazos.",
+    "description": "Consulta las reseñas públicas sobre DBM Carpintería Metálica directamente en su ficha de Google Maps.",
     "ogImage": "/og.jpg"
   },
   "business": {
@@ -18,7 +18,10 @@
       "country": "ES"
     },
     "areaServed": "Castellón y alrededores: Castelló de la Plana, Borriol y municipios cercanos en toda la provincia.",
-    "openingHours": ["L-V 07:00-20:00", "S 08:00-14:00"],
+    "openingHours": [
+      "L-V 07:00-20:00",
+      "S 08:00-14:00"
+    ],
     "googleProfileUrl": "https://share.google/0V3LyWF86cHdwTzbv",
     "mapsUrl": "https://maps.app.goo.gl/KFGw1GPm2VWbkhxp8"
   },
@@ -27,19 +30,19 @@
       "type": "hero",
       "id": "hero",
       "headline": "Opiniones de clientes",
-      "subheadline": "Trabajamos con atención directa, acabados finos y plazos cumplidos. Estas son algunas opiniones representativas.",
-      "primaryCta": { "label": "Ver servicios", "href": "/servicios" },
-      "secondaryCta": { "label": "Pedir presupuesto", "href": "/contacto" },
-      "highlights": ["Atención directa", "Acabado profesional", "Cumplimos plazos"]
-    },
-    {
-      "type": "testimonials",
-      "id": "opiniones",
-      "title": "Lo que dicen nuestros clientes",
-      "items": [
-        { "name": "Cliente", "quote": "Acabado muy fino y cumplieron los plazos. Comunicación clara." },
-        { "name": "Empresa", "quote": "Profesionales en montaje industrial. Serios y resolutivos." },
-        { "name": "Particular", "quote": "Instalaron una puerta y cerramiento. Trabajo limpio y bien rematado." }
+      "subheadline": "Consulta las valoraciones y reseñas públicas directamente en Google Maps. Aquí no reproducimos opiniones sin verificar.",
+      "primaryCta": {
+        "label": "Ver servicios",
+        "href": "/servicios"
+      },
+      "secondaryCta": {
+        "label": "Pedir presupuesto",
+        "href": "/contacto"
+      },
+      "highlights": [
+        "Reseñas públicas en Google",
+        "Enlace a la ficha del negocio",
+        "Atención directa"
       ]
     },
     {
@@ -48,8 +51,8 @@
       "title": "Preguntas frecuentes",
       "items": [
         {
-          "q": "¿Las opiniones son verificables?",
-          "a": "Si lo deseas, te compartimos el enlace de Google para que veas las reseñas públicas disponibles."
+          "q": "¿Dónde puedo consultar las reseñas de DBM?",
+          "a": "Abre nuestra ficha de Google Maps mediante el enlace de esta página para consultar las reseñas públicas disponibles."
         },
         {
           "q": "¿Trabajáis para particulares y empresas?",
@@ -77,4 +80,3 @@
     }
   ]
 }
-

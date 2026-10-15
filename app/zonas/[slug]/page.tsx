@@ -19,13 +19,6 @@ import {
 } from "@/lib/locationPages";
 import { resolveLocationSlug } from "@/lib/aliases";
 import { getServiceLabel } from "@/lib/servicePages";
-import {
-  WORK_SLUGS,
-  getWorkLabel,
-  getWorkRaw,
-  getWorkSlugsForLocation,
-  getWorkSlugsForLocations
-} from "@/lib/workPages";
 
 type Params = { slug: string };
 type Props = { params: Promise<Params> };
@@ -120,42 +113,6 @@ export default async function ZonaPage({ params }: Props) {
     }))
     .slice(0, 3);
 
-  // Works cross-linking: Zonas -> Trabajos
-  const directWorkSlugs = getWorkSlugsForLocation(canon, 3);
-  let workSlugs = directWorkSlugs;
-  let worksNote: string | null = null;
-
-  if (!workSlugs.length) {
-    const nearbyWorkSlugs = getWorkSlugsForLocations(nearbySlugs, 3);
-    if (nearbyWorkSlugs.length) {
-      workSlugs = nearbyWorkSlugs;
-      worksNote = `Ejemplos de trabajos en municipios cercanos a ${label} (misma provincia).`;
-    }
-  }
-
-  if (!workSlugs.length) {
-    workSlugs = WORK_SLUGS.slice(0, 3);
-    worksNote = "Ejemplos de trabajos en Castellón y alrededores.";
-  }
-
-  const workCards = workSlugs
-    .map((ws) => {
-      const wraw = getWorkRaw(ws);
-      if (!wraw) return null;
-      try {
-        const wpage = validatePageJSON(wraw);
-        return {
-          slug: ws,
-          title: getWorkLabel(ws) ?? wpage.meta.title,
-          description: wpage.meta.description,
-          href: `/trabajos/${ws}`
-        };
-      } catch {
-        return null;
-      }
-    })
-    .filter(Boolean) as { slug: string; title: string; description: string; href: string }[];
-
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessLd) }} />
@@ -236,32 +193,6 @@ export default async function ZonaPage({ params }: Props) {
                     className="inline-flex items-center rounded-full border px-3 py-1.5 text-sm opacity-90 hover:opacity-100 hover:shadow-sm hover:-translate-y-[1px] transition-all duration-150 ease-out active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
                   >
                     {n.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </Container>
-        </div>
-      ) : null}
-
-      {/* Works for this location */}
-      {workCards.length ? (
-        <div className="border-b bg-white/70">
-          <Container>
-            <div className="py-5">
-              <p className="text-xs font-semibold uppercase tracking-wide opacity-60">Trabajos recientes</p>
-              <h2 className="mt-1 text-lg font-semibold">Trabajos recientes en {label}</h2>
-              {worksNote ? <p className="mt-1 text-sm opacity-70">{worksNote}</p> : null}
-              <div className="mt-3 grid gap-3 md:grid-cols-3">
-                {workCards.map((w) => (
-                  <Link
-                    key={w.slug}
-                    href={w.href}
-                    className="rounded-2xl border bg-white p-4 opacity-95 hover:opacity-100 hover:-translate-y-0.5 hover:shadow-sm transition-all duration-150 ease-out active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
-                  >
-                    <p className="font-semibold">{w.title}</p>
-                    <p className="mt-1 text-sm opacity-70 line-clamp-3">{w.description}</p>
-                    <p className="mt-3 text-sm font-semibold">Ver trabajo</p>
                   </Link>
                 ))}
               </div>

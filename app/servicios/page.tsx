@@ -51,7 +51,7 @@ export default function ServiciosPage() {
       postalCode: b.address.postalCode,
       addressCountry: b.address.country
     } : undefined,
-    openingHours: ["L-V 07:00-20:00", "S 07:00-14:00"],
+    openingHours: ["L-V 07:00-20:00", "S 08:00-14:00"],
     areaServed: b?.areaServed,
     sameAs: [b?.googleProfileUrl, b?.mapsUrl].filter(Boolean) as string[]
   });
