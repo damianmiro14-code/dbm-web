@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isSafeAdminPassword } from "@/lib/admin-security";
 
 const COOKIE_NAME = "dbm_admin";
 
@@ -14,7 +15,7 @@ export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // Allow login/logout routes (otherwise we'd create a redirect loop).
-  if (pathname.startsWith("/admin/login") || pathname.startsWith("/admin/logout")) {
+  if (pathname === "/admin/login" || pathname === "/admin/logout") {
     return NextResponse.next();
   }
 
@@ -22,7 +23,7 @@ export async function middleware(req: NextRequest) {
   const cookieVal = req.cookies.get(COOKIE_NAME)?.value;
 
   // If not configured, do not expose admin pages.
-  if (!password) {
+  if (!(await isSafeAdminPassword(password))) {
     const url = req.nextUrl.clone();
     url.pathname = "/admin/login";
     url.searchParams.set("error", "config");

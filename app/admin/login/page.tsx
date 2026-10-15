@@ -1,6 +1,7 @@
 import Container from "@/components/ui/Container";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { isSafeAdminPassword, safeAdminRedirect } from "@/lib/admin-security";
 
 const COOKIE_NAME = "dbm_admin";
 
@@ -20,14 +21,14 @@ export default async function AdminLoginPage({
   searchParams?: Promise<{ next?: string; error?: string }>;
 }) {
   const sp = (await searchParams) ?? {};
-  const nextPath = typeof sp.next === "string" ? sp.next : "/admin";
+  const nextPath = safeAdminRedirect(sp.next);
   const error = typeof sp.error === "string" ? sp.error : "";
 
   async function loginAction(formData: FormData) {
     "use server";
 
     const password = process.env.ADMIN_PASSWORD;
-    if (!password) redirect(`/admin/login?error=config&next=${encodeURIComponent(nextPath)}`);
+    if (!(await isSafeAdminPassword(password))) redirect(`/admin/login?error=config&next=${encodeURIComponent(nextPath)}`);
 
     const provided = String(formData.get("password") || "");
     if (provided !== password) redirect(`/admin/login?error=1&next=${encodeURIComponent(nextPath)}`);
@@ -44,7 +45,7 @@ export default async function AdminLoginPage({
       maxAge: 60 * 60 * 24 * 30,
     });
 
-    redirect(nextPath || "/admin");
+    redirect(nextPath);
   }
 
   return (
