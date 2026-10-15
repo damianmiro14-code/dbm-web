@@ -6,6 +6,7 @@ export type ServiceLocationLink = {
   locationSlug: (typeof LOCATION_SLUGS)[number];
   locationLabel: string;
   href: string;
+  isLocationFallback?: boolean;
 };
 
 /**
@@ -28,13 +29,14 @@ export function getTopLocationLinksForService(serviceSlug: ServiceSlug | string,
     href: `/${p.location}/${serviceSlug}`
   }));
 
-  // Defensive fallback: if a service isn't in the recommended pairs, still expose
-  // a handful of locality entry points for internal linking.
+  // If no service-specific landing exists, link to published locality pages
+  // instead of inventing non-existent location/service URLs.
   if (links.length === 0) {
     return LOCATION_SLUGS.slice(0, limit).map((loc) => ({
       locationSlug: loc,
       locationLabel: getLocationLabel(loc) ?? loc,
-      href: `/${loc}/${serviceSlug}`
+      href: `/zonas/${loc}`,
+      isLocationFallback: true
     }));
   }
 

@@ -157,8 +157,12 @@ export default async function ServicePage({ params }: Props) {
                   href={l.href}
                   className="group rounded-2xl border bg-white p-4 transition-all duration-150 ease-out hover:-translate-y-0.5 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
                 >
-                  <div className="text-sm font-semibold">{`${serviceLabel} en ${l.locationLabel}`}</div>
-                  <div className="mt-1 text-sm opacity-80">Ver detalles, ejemplos y pedir presupuesto</div>
+                  <div className="text-sm font-semibold">
+                    {l.isLocationFallback ? `Servicios en ${l.locationLabel}` : `${serviceLabel} en ${l.locationLabel}`}
+                  </div>
+                  <div className="mt-1 text-sm opacity-80">
+                    {l.isLocationFallback ? "Ver zona de cobertura y pedir presupuesto" : "Ver detalles, ejemplos y pedir presupuesto"}
+                  </div>
                 </Link>
               ))}
             </div>
