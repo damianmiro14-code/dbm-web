@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 import Container from "@/components/ui/Container";
 import type { Business } from "@/lib/pagejson.types";
 import { track, trackLinkClick } from "@/lib/analytics";
-import { addLead } from "@/lib/leads";
 import { getServiceLabel } from "@/lib/servicePages";
 import WhatsAppQuickModal from "@/components/WhatsAppQuickModal";
 import { getWhatsAppQuickFields } from "@/lib/whatsappQuickFields";
@@ -289,8 +288,7 @@ export default function SiteHeader({ business }: { business?: Business }) {
         submitLabel="Abrir WhatsApp con el mensaje"
         draftKey={serviceSlug ? `header_quick:${serviceSlug}` : "header_quick:global"}
         onSubmitTrack={() => {
-          addLead({ source: "header", service: serviceLabel ?? undefined, location: (locationPrefill as any)?.localidad ?? undefined, meta: { channel: "whatsapp", service: serviceSlug } });
-          track("whatsapp_quick_send", { mode: "quick", service: serviceSlug ?? "global", context: "header" });
+          track("whatsapp_quick_open_intent", { mode: "quick", service: serviceSlug ?? "global", context: "header" });
         }}
       />
     </>

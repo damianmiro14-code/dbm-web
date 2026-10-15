@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { useBodyScrollLock, useFocusTrap } from "@/lib/hooks/useModalA11y";
-import { storageGet, storageSet } from "@/lib/storage";
+import { sessionDraftGet, sessionDraftSet } from "@/lib/sessionDraft";
 
 import Button from "@/components/ui/Button";
 
@@ -322,7 +322,7 @@ export default function WhatsAppSpecModal({
     }
     // Restore draft if present.
     try {
-      const raw = storageGet(storageKey);
+      const raw = sessionDraftGet(storageKey);
       if (raw) {
         const parsed = JSON.parse(raw) as Record<string, string>;
         const merged = { ...next, ...parsed };
@@ -368,7 +368,7 @@ export default function WhatsAppSpecModal({
   useEffect(() => {
     if (!open) return;
     try {
-      storageSet(storageKey, JSON.stringify(values));
+      sessionDraftSet(storageKey, JSON.stringify(values));
     } catch {
       // ignore
     }

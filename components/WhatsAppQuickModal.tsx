@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { useBodyScrollLock, useFocusTrap } from "@/lib/hooks/useModalA11y";
-import { storageGet, storageSet } from "@/lib/storage";
+import { sessionDraftGet, sessionDraftSet } from "@/lib/sessionDraft";
 
 import Button from "@/components/ui/Button";
 import type { SpecField } from "@/components/WhatsAppSpecModal";
@@ -231,7 +231,7 @@ export default function WhatsAppQuickModal({
       nextUnknown[f.id] = false;
     }
     try {
-      const raw = storageGet(storageKey);
+      const raw = sessionDraftGet(storageKey);
       if (raw) {
         const parsed = JSON.parse(raw) as { values?: Record<string, string>; unknown?: Record<string, boolean> };
         const merged = { ...nextValues, ...(parsed.values ?? {}) };
@@ -281,7 +281,7 @@ export default function WhatsAppQuickModal({
   useEffect(() => {
     if (!open) return;
     try {
-      storageSet(storageKey, JSON.stringify({ values, unknown }));
+      sessionDraftSet(storageKey, JSON.stringify({ values, unknown }));
     } catch {
       // ignore
     }

@@ -100,8 +100,8 @@ export default function LeadsDashboard() {
             <p className="text-xs uppercase tracking-wide opacity-70">Panel interno</p>
             <h1 className="mt-1 text-3xl md:text-5xl font-semibold tracking-tight">Leads</h1>
             <p className="mt-3 max-w-2xl opacity-80">
-              Guardado local en este navegador (sin servidor). Útil para controlar solicitudes mientras trabajamos la
-              parte premium.
+              Histórico antiguo de este navegador, no es una bandeja de solicitudes recibidas.
+              Desde P202A abrir WhatsApp no crea nuevos leads; confirma los contactos en WhatsApp Business.
             </p>
           </div>
 

@@ -6,6 +6,7 @@
 // - Regardless of GA, events are kept (recently) in browser storage for debugging.
 
 import { storageGet, storageSet, storageRemove } from "@/lib/storage";
+import { purgeLegacyDrafts } from "@/lib/sessionDraft";
 
 export type TrackParams = Record<string, string | number | boolean | null | undefined>;
 
@@ -15,8 +16,10 @@ type StoredEvent = {
   params: TrackParams;
 };
 
-const STORAGE_KEY = "dbm_analytics_events_v1";
-const SESSION_KEY = "dbm_analytics_session_id_v1";
+const STORAGE_KEY = "dbm_analytics_events_v2";
+const SESSION_KEY = "dbm_analytics_session_id_v2";
+const LEGACY_STORAGE_KEY = "dbm_analytics_events_v1";
+const LEGACY_SESSION_KEY = "dbm_analytics_session_id_v1";
 // Keep enough events for meaningful debugging without unbounded growth.
 const MAX_EVENTS = 500;
 
@@ -30,8 +33,8 @@ function safeGetPath(): string {
 
 function safeGetReferrer(): string {
   try {
-    const r = document.referrer || "";
-    return r.slice(0, 200);
+    const r = document.referrer;
+    return r ? new URL(r).origin : ""; // Never collect referrer path, query or fragment.
   } catch {
     return "";
   }
@@ -61,11 +64,12 @@ function randomId(): string {
 }
 
 function getSessionId(): string {
+  // Diagnostic identifier lives only for this tab, not across site visits.
   try {
-    const existing = storageGet(SESSION_KEY);
+    const existing = window.sessionStorage.getItem(SESSION_KEY);
     if (existing) return existing;
     const id = randomId();
-    storageSet(SESSION_KEY, id);
+    window.sessionStorage.setItem(SESSION_KEY, id);
     return id;
   } catch {
     return randomId();
@@ -74,6 +78,9 @@ function getSessionId(): string {
 
 function safeStore(event: string, params: TrackParams) {
   try {
+    // Previous analytics history may contain full WhatsApp texts: discard it.
+    storageRemove(LEGACY_STORAGE_KEY);
+    storageRemove(LEGACY_SESSION_KEY);
     const existing = storageGet(STORAGE_KEY);
     const arr: StoredEvent[] = existing ? (JSON.parse(existing) as StoredEvent[]) : [];
     arr.push({ ts: Date.now(), event, params });
@@ -86,9 +93,25 @@ function safeStore(event: string, params: TrackParams) {
 export function clearTrackingStore() {
   try {
     storageRemove(STORAGE_KEY);
+    storageRemove(LEGACY_STORAGE_KEY);
+    storageRemove(LEGACY_SESSION_KEY);
   } catch {
     // ignore
   }
+}
+
+// Defensive allow-list. Customer text / URLs are never tracking attributes.
+const ALLOWED_FIELDS = new Set(["mode", "service", "context", "kind", "urgency", "has_files"]);
+function safeTelemetry(params: TrackParams): TrackParams {
+  const clean: TrackParams = {};
+  for (const [key, value] of Object.entries(params)) {
+    if (!ALLOWED_FIELDS.has(key)) continue;
+    if (typeof value === "boolean") { clean[key] = value; continue; }
+    if (typeof value !== "string") continue;
+    // Accept short categories only; not unbounded descriptions or contact data.
+    if (value.length <= 64 && /^[\p{L}\p{N} _-]+$/u.test(value)) clean[key] = value;
+  }
+  return clean;
 }
 
 export function track(event: string, params: TrackParams = {}) {
@@ -99,7 +122,7 @@ export function track(event: string, params: TrackParams = {}) {
     page_path: safeGetPath(),
     referrer: safeGetReferrer(),
     device: safeGetDevice(),
-    ...params
+    ...safeTelemetry(params)
   };
 
   safeStore(event, payload);
@@ -118,6 +141,7 @@ export function track(event: string, params: TrackParams = {}) {
 // Here we only keep a local breadcrumb for debugging.
 export function trackPageView(pathname: string) {
   if (typeof window === "undefined") return;
+  purgeLegacyDrafts();
   safeStore("page_view", { session_id: getSessionId(), page_path: pathname, referrer: safeGetReferrer(), device: safeGetDevice() });
 }
 
@@ -168,10 +192,6 @@ export function trackLinkClick(opts: { href: string; label?: string; context?: s
     }
   }
 
-  track(event, {
-    href,
-    kind,
-    label: lbl,
-    context: ctx
-  });
+  // The clicked URL may contain a WhatsApp message with customer data.
+  track(event, { kind, context: ctx });
 }

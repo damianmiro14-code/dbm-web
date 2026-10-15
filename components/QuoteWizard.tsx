@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Button from "@/components/ui/Button";
 import { track } from "@/lib/analytics";
-import { addLead } from "@/lib/leads";
+import { sessionDraftGet, sessionDraftSet, sessionDraftRemove } from "@/lib/sessionDraft";
 
 function normalizePhoneE164(phoneE164: string) {
   const p = phoneE164.replace(/\s+/g, "");
@@ -91,7 +91,7 @@ export default function QuoteWizard({ phoneE164 }: { phoneE164: string }) {
 
   // Load draft
   useEffect(() => {
-    const stored = safeParseDraft(localStorage.getItem(STORAGE_KEY));
+    const stored = safeParseDraft(sessionDraftGet(STORAGE_KEY));
     if (stored) setDraft(stored);
   }, []);
 
@@ -122,7 +122,7 @@ export default function QuoteWizard({ phoneE164 }: { phoneE164: string }) {
 
   // Persist draft
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
+    sessionDraftSet(STORAGE_KEY, JSON.stringify(draft));
   }, [draft]);
 
   const message = useMemo(() => {
@@ -161,7 +161,7 @@ export default function QuoteWizard({ phoneE164 }: { phoneE164: string }) {
   }
 
   function resetDraft() {
-    localStorage.removeItem(STORAGE_KEY);
+    sessionDraftRemove(STORAGE_KEY);
     setDraft({
       service: "Soldadura",
       location: "",
@@ -349,21 +349,7 @@ export default function QuoteWizard({ phoneE164 }: { phoneE164: string }) {
               href={waUrl}
               onClick={() =>
                 {
-                  addLead({
-                    source: "presupuesto",
-                    service: draft.service,
-                    location: draft.location,
-                    name: draft.name,
-                    phone: draft.phone,
-                    message,
-                    meta: {
-                      measurements: draft.measurements,
-                      material: draft.material,
-                      install: draft.install,
-                      urgency: draft.urgency
-                    }
-                  });
-                  track("lead_quote_whatsapp", {
+                  track("quote_whatsapp_open_intent", {
                     service: draft.service,
                     urgency: draft.urgency,
                     has_files: false

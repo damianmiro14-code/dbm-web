@@ -22,7 +22,10 @@ export default function Analytics() {
       if (GA_ID && typeof gtag === "function") {
         gtag("config", GA_ID, {
           page_path: path,
-          page_location: window.location.href
+          page_location: window.location.origin + path, // omit query / fragment / user input
+          page_referrer: (() => {
+            try { return document.referrer ? new URL(document.referrer).origin : ""; } catch { return ""; }
+          })()
         });
       }
     } catch {

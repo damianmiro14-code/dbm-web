@@ -14,7 +14,7 @@ type StoredEvent = {
   params: TrackParams;
 };
 
-const STORAGE_KEY = "dbm_analytics_events_v1";
+const STORAGE_KEY = "dbm_analytics_events_v2";
 
 function formatTs(ts: number): string {
   try {
@@ -154,11 +154,11 @@ export default function TrackingDashboard() {
       if (e.event === "click_call") call += 1;
       if (e.event === "click_booking") bookingClick += 1;
       if (e.event === "whatsapp_quick_open") quickOpen += 1;
-      if (e.event === "whatsapp_quick_send") quickSend += 1;
+      if (e.event === "whatsapp_quick_open_intent") quickSend += 1;
       if (e.event === "booking_open") bookingOpen += 1;
-      if (e.event === "booking_send") bookingSend += 1;
+      if (e.event === "booking_open_intent") bookingSend += 1;
       if (e.event === "service_spec_open") specOpen += 1;
-      if (e.event === "service_spec_send") specSend += 1;
+      if (e.event === "service_spec_open_intent") specSend += 1;
     }
     return { total, whatsappClick, bookingClick, call, quickOpen, quickSend, bookingOpen, bookingSend, specOpen, specSend };
   }, [events]);
@@ -181,7 +181,7 @@ export default function TrackingDashboard() {
             <div>
               <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Tracking (debug)</h1>
               <p className="mt-3 max-w-2xl opacity-80">
-                Lista de eventos guardados en localStorage. Útil para verificar el tracking antes de activar GA4.
+                Eventos técnicos de este navegador, sin mensajes ni datos de contacto. Abrir WhatsApp no confirma un envío.
               </p>
             </div>
 
@@ -246,9 +246,9 @@ export default function TrackingDashboard() {
             <div className="flex flex-wrap gap-4 text-xs opacity-70">
               <span><strong>Total:</strong> {summary.total}</span>
               <span><strong>WhatsApp clicks:</strong> {summary.whatsappClick}</span>
-              <span><strong>Quick open/send:</strong> {summary.quickOpen}/{summary.quickSend} ({pct(summary.quickSend, summary.quickOpen)})</span>
-              <span><strong>Booking open/send:</strong> {summary.bookingOpen}/{summary.bookingSend} ({pct(summary.bookingSend, summary.bookingOpen)})</span>
-              <span><strong>Spec open/send:</strong> {summary.specOpen}/{summary.specSend} ({pct(summary.specSend, summary.specOpen)})</span>
+              <span><strong>Quick abierto/intento:</strong> {summary.quickOpen}/{summary.quickSend} ({pct(summary.quickSend, summary.quickOpen)})</span>
+              <span><strong>Visita abierto/intento:</strong> {summary.bookingOpen}/{summary.bookingSend} ({pct(summary.bookingSend, summary.bookingOpen)})</span>
+              <span><strong>Ficha abierto/intento:</strong> {summary.specOpen}/{summary.specSend} ({pct(summary.specSend, summary.specOpen)})</span>
               <span><strong>Reservas clicks:</strong> {summary.bookingClick}</span>
               <span><strong>Llamadas:</strong> {summary.call}</span>
             </div>

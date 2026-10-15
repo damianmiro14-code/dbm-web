@@ -8,7 +8,6 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import Button from "@/components/ui/Button";
 import type { ContactSection } from "@/lib/pagejson.types";
 import { track } from "@/lib/analytics";
-import { addLead } from "@/lib/leads";
 import WhatsAppSpecModal from "@/components/WhatsAppSpecModal";
 import WhatsAppQuickModal from "@/components/WhatsAppQuickModal";
 import { getServiceLabel, SERVICE_SLUGS } from "@/lib/servicePages";
@@ -182,8 +181,7 @@ export default function Contact({ section }: { section: ContactSection }) {
           prefill={locationPrefill}
           fields={specFields}
           onSubmitTrack={() => {
-            addLead({ source: "service_spec", meta: { service: serviceSlug, channel: "whatsapp" } });
-            track("service_spec_send", { mode: "spec", service: serviceSlug, context: "contact" });
+            track("service_spec_open_intent", { mode: "spec", service: serviceSlug, context: "contact" });
           }}
         />
       ) : null}
@@ -202,8 +200,7 @@ export default function Contact({ section }: { section: ContactSection }) {
           submitLabel="Abrir WhatsApp con el mensaje"
           draftKey={serviceSlug ? `quick:${serviceSlug}` : "quick:global"}
           onSubmitTrack={() => {
-            addLead({ source: "contacto", meta: { channel: "whatsapp", service: serviceSlug } });
-            track("whatsapp_quick_send", { mode: "quick", service: serviceSlug ?? "global", context: "contact" });
+            track("whatsapp_quick_open_intent", { mode: "quick", service: serviceSlug ?? "global", context: "contact" });
           }}
         />
       ) : null}
@@ -222,8 +219,7 @@ export default function Contact({ section }: { section: ContactSection }) {
           submitLabel="Abrir WhatsApp para reservar"
           draftKey={serviceSlug ? `visit:${serviceSlug}` : "visit:global"}
           onSubmitTrack={() => {
-            addLead({ source: "reserva", meta: { channel: "whatsapp", service: serviceSlug } });
-            track("booking_send", { mode: "visit", service: serviceSlug ?? "global", context: "contact" });
+            track("booking_open_intent", { mode: "visit", service: serviceSlug ?? "global", context: "contact" });
           }}
         />
       ) : null}
