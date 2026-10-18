@@ -91,6 +91,11 @@ export default function Contact({ section }: { section: ContactSection }) {
               <p className="mt-2 opacity-80">
                 Abrimos WhatsApp con un mensaje listo. Solo tienes que enviarlo.
               </p>
+              <p className="mt-2 text-xs leading-5 text-slate-700">
+                Responsable: Damián Brajkovic Miro. Finalidad: atender solicitudes y presupuestos.
+                Consulta tus derechos en <a className="underline" href="/privacidad">Privacidad</a>.
+                El mensaje solo llega a DBM cuando lo envías desde WhatsApp.
+              </p>
 
               {socialLinks?.length ? (
                 <div className="mt-4 flex flex-wrap items-center gap-2">

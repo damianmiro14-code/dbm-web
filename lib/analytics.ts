@@ -7,6 +7,7 @@
 
 import { storageGet, storageSet, storageRemove } from "@/lib/storage";
 import { purgeLegacyDrafts } from "@/lib/sessionDraft";
+import { hasAnalyticsConsent } from "@/lib/cookieConsent";
 
 export type TrackParams = Record<string, string | number | boolean | null | undefined>;
 
@@ -22,6 +23,40 @@ const LEGACY_STORAGE_KEY = "dbm_analytics_events_v1";
 const LEGACY_SESSION_KEY = "dbm_analytics_session_id_v1";
 // Keep enough events for meaningful debugging without unbounded growth.
 const MAX_EVENTS = 500;
+
+// P202B optional local tracking: only active when GA is configured AND consent was granted.
+const P202B_GA_CONFIGURED = Boolean(process.env.NEXT_PUBLIC_GA_ID);
+const P202B_CONSENT_CHANGED_EVENT = "dbm:cookie-consent-changed";
+
+function clearOptionalTrackingData(): void {
+  if (typeof window === "undefined") return;
+  // Clear both potential stores; preserve drafts, preferences and unrelated data.
+  for (const area of ["localStorage", "sessionStorage"] as const) {
+    try {
+      for (const key of [STORAGE_KEY, SESSION_KEY, LEGACY_STORAGE_KEY, LEGACY_SESSION_KEY]) {
+        window[area].removeItem(key);
+      }
+    } catch { /* fail closed when storage is unavailable */ }
+  }
+}
+
+function optionalTrackingAllowed(): boolean {
+  try {
+    const allowed = P202B_GA_CONFIGURED && hasAnalyticsConsent();
+    if (!allowed) clearOptionalTrackingData();
+    return allowed;
+  } catch {
+    clearOptionalTrackingData();
+    return false;
+  }
+}
+
+// Drop historical events when the client loads and immediately after a choice is withdrawn.
+if (typeof window !== "undefined") {
+  optionalTrackingAllowed();
+  window.addEventListener(P202B_CONSENT_CHANGED_EVENT, () => { optionalTrackingAllowed(); });
+}
+
 
 function safeGetPath(): string {
   try {
@@ -91,13 +126,7 @@ function safeStore(event: string, params: TrackParams) {
 }
 
 export function clearTrackingStore() {
-  try {
-    storageRemove(STORAGE_KEY);
-    storageRemove(LEGACY_STORAGE_KEY);
-    storageRemove(LEGACY_SESSION_KEY);
-  } catch {
-    // ignore
-  }
+  clearOptionalTrackingData();
 }
 
 // Defensive allow-list. Customer text / URLs are never tracking attributes.
@@ -115,7 +144,7 @@ function safeTelemetry(params: TrackParams): TrackParams {
 }
 
 export function track(event: string, params: TrackParams = {}) {
-  if (typeof window === "undefined") return;
+  if (typeof window === "undefined" || !optionalTrackingAllowed()) return;
 
   const payload: TrackParams = {
     session_id: getSessionId(),
@@ -142,6 +171,7 @@ export function track(event: string, params: TrackParams = {}) {
 export function trackPageView(pathname: string) {
   if (typeof window === "undefined") return;
   purgeLegacyDrafts();
+  if (!optionalTrackingAllowed()) return;
   safeStore("page_view", { session_id: getSessionId(), page_path: pathname, referrer: safeGetReferrer(), device: safeGetDevice() });
 }
 

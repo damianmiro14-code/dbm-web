@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Container from "@/components/ui/Container";
+import CookieSettingsButton from "@/components/CookieSettingsButton";
 import type { Business } from "@/lib/pagejson.types";
 
 const navigation = [
@@ -210,6 +211,12 @@ export default function SiteFooter({ business }: { business?: Business }) {
             ) : null}
           </div>
 
+          <nav aria-label="Información legal y privacidad" className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs text-stone-300">
+            <a href="/aviso-legal" className={linkClassName}>Aviso legal</a>
+            <a href="/privacidad" className={linkClassName}>Privacidad</a>
+            <a href="/cookies" className={linkClassName}>Cookies</a>
+            <CookieSettingsButton className={linkClassName} />
+          </nav>
           <p className="mt-7 border-t border-white/10 pt-6 text-xs leading-5 text-stone-400">
             © {new Date().getFullYear()} {name}. Todos los derechos reservados.
           </p>

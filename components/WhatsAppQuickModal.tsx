@@ -556,6 +556,7 @@ export default function WhatsAppQuickModal({
           </div>
 
           <div ref={footerRef} className="border-t p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] flex flex-wrap items-center justify-between gap-3 bg-white">
+            <p className="w-full text-xs text-slate-700">Responsable: Damián Brajkovic Miro. Finalidad: gestionar tu consulta. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Abrir WhatsApp no envía automáticamente el mensaje.</p>
             <Button variant="secondary" onClick={attemptClose}>
               Cancelar
             </Button>

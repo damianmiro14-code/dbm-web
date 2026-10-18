@@ -624,6 +624,7 @@ export default function WhatsAppSpecModal({
           </div>
 
           <div ref={footerRef} className="flex flex-wrap items-center justify-between gap-3 border-t p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] bg-white">
+            <p className="w-full text-xs text-slate-700">Responsable: Damián Brajkovic Miro. Finalidad: atender presupuestos. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Debes enviar el mensaje desde WhatsApp.</p>
             <div className="text-xs opacity-70">
               {missingCount > 0 ? (
                 <span>

@@ -335,6 +335,11 @@ export default function QuoteWizard({ phoneE164 }: { phoneE164: string }) {
             <p className="mt-2 text-sm opacity-70">
               Consejo: al abrir WhatsApp, envía después las fotos/planos como adjuntos.
             </p>
+            <p className="mt-2 text-xs leading-5 text-slate-700">
+              Responsable: Damián Brajkovic Miro (DBM). Usamos los datos para atender tu presupuesto.
+              Al abrir WhatsApp aún tendrás que enviar el mensaje. Consulta tus derechos y el tratamiento en
+              <a className="ml-1 underline" href="/privacidad">Privacidad</a>.
+            </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">

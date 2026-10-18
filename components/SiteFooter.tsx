@@ -1,4 +1,5 @@
 ﻿import Container from "@/components/ui/Container";
+import CookieSettingsButton from "@/components/CookieSettingsButton";
 import type { Business } from "@/lib/pagejson.types";
 
 export default function SiteFooter({ business }: { business?: Business }) {
@@ -140,6 +141,12 @@ export default function SiteFooter({ business }: { business?: Business }) {
           </div>
         </div>
         <div className="py-6 border-t border-slate-200 text-xs opacity-70">
+          <nav aria-label="Información legal y privacidad" className="mb-4 flex flex-wrap gap-4 text-sm">
+            <a href="/aviso-legal" className="underline underline-offset-2">Aviso legal</a>
+            <a href="/privacidad" className="underline underline-offset-2">Privacidad</a>
+            <a href="/cookies" className="underline underline-offset-2">Cookies</a>
+            <CookieSettingsButton className="underline underline-offset-2" />
+          </nav>
           <p>© {new Date().getFullYear()} {b?.name ?? "DBM Carpintería Metálica"}. Todos los derechos reservados.</p>
         </div>
       </Container>
