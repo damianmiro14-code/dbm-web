@@ -1,4 +1,5 @@
 "use client";
+import DBMSelect from "@/components/ui/DBMSelect";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
@@ -459,7 +460,7 @@ export default function WhatsAppSpecModal({
     >
       <div
         ref={overlayRef}
-        className="absolute inset-0 bg-black/40"
+        className="absolute inset-0 bg-black/70 backdrop-blur-[2px]"
         aria-hidden
         onPointerDown={(e) => {
           if (e.currentTarget !== e.target) return;
@@ -475,17 +476,17 @@ export default function WhatsAppSpecModal({
           if (dx <= 8 && dy <= 8) attemptClose();
         }}
       />
-      <div className="absolute inset-0 flex items-end justify-center p-3 md:items-center">
-        <div ref={dialogRef} className="w-full max-w-2xl max-h-full overflow-hidden rounded-2xl border border-border bg-white shadow-lg flex flex-col">
-          <div className="flex items-center justify-between gap-4 border-b p-5 bg-white">
+      <div className="absolute inset-0 flex items-end justify-center p-2 sm:p-4 md:items-center">
+        <div ref={dialogRef} className="flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-[22px] border border-[#F97316]/25 bg-white shadow-[0_26px_90px_rgba(0,0,0,0.42)] sm:rounded-[26px]">
+          <div className="flex items-center justify-between gap-4 border-b border-white/10 bg-[#17191B] p-4 text-white sm:px-7 sm:py-5">
             <div>
-              <div id="dbm-spec-title" className="text-base font-semibold">{title}</div>
-              <div id="dbm-spec-desc" className="mt-1 text-sm opacity-80">
+              <div id="dbm-spec-title" className="text-lg font-extrabold tracking-tight text-white sm:text-xl">{title}</div>
+              <div id="dbm-spec-desc" className="mt-1 text-xs leading-5 text-white/75 sm:text-sm">
                 Rellena lo básico y abrimos WhatsApp con el mensaje listo.
               </div>
             </div>
             <button
-              className="rounded-lg p-2 opacity-70 hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+              className="rounded-xl border border-white/20 p-2 text-white/80 transition-colors hover:border-[#F97316] hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316] focus-visible:ring-offset-2 focus-visible:ring-offset-[#17191B]"
               onClick={attemptClose}
               aria-label="Cerrar"
               type="button"
@@ -495,7 +496,7 @@ export default function WhatsAppSpecModal({
           </div>
 
           {confirmClose ? (
-            <div className="border-b px-5 py-3 text-xs bg-white">
+            <div className="border-b border-orange-200 bg-[#FFF5EB] px-4 py-3 text-xs text-slate-800 sm:px-7">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <div className="opacity-80">
                   Tienes cambios sin enviar. El borrador se guarda automáticamente.
@@ -503,14 +504,14 @@ export default function WhatsAppSpecModal({
                 <div className="flex gap-2">
                   <button
                     type="button"
-                    className="rounded-xl border border-border px-3 py-2 text-xs hover:bg-brand/5"
+                    className="rounded-xl border border-[#F97316]/35 bg-white px-3 py-2 text-xs font-semibold text-slate-800 hover:bg-orange-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316]"
                     onClick={() => setConfirmClose(false)}
                   >
                     Seguir
                   </button>
                   <button
                     type="button"
-                    className="rounded-xl border border-border px-3 py-2 text-xs hover:bg-brand/5"
+                    className="rounded-xl border border-[#F97316]/35 bg-white px-3 py-2 text-xs font-semibold text-slate-800 hover:bg-orange-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316]"
                     onClick={onClose}
                   >
                     Cerrar
@@ -522,7 +523,7 @@ export default function WhatsAppSpecModal({
 
           <div
             ref={scrollRef}
-            className="p-5 overflow-y-auto flex-1"
+            className="flex-1 overflow-y-auto bg-[#F7F8FA] p-4 sm:p-6"
             style={{ WebkitOverflowScrolling: "touch", overscrollBehavior: "contain", scrollPaddingBottom: footerH + 24, scrollPaddingTop: 24 }}
           >
             <div className="grid gap-4 sm:grid-cols-2">
@@ -550,12 +551,12 @@ export default function WhatsAppSpecModal({
                 return (
                   <label key={f.id} className={f.type === "textarea" ? "sm:col-span-2" : ""}>
                     <div className="flex items-center justify-between gap-3">
-                      <div className="text-sm font-medium">
+                      <div className="text-sm font-semibold text-[#172033]">
                         {f.label}
                         {(f as any).required ? <span className="opacity-60"> *</span> : null}
                       </div>
                       {canMarkUnknown ? (
-                        <div className="flex items-center gap-2 text-xs opacity-80 select-none">
+                        <div className="flex items-center gap-2 text-xs font-medium text-slate-600 select-none">
                           <input
                             type="checkbox"
                             aria-label={`No lo sé: ${f.label}`}
@@ -574,30 +575,36 @@ export default function WhatsAppSpecModal({
                       ) : null}
                     </div>
                     {f.type === "select" ? (
-                      <select
-                        {...common}
-                        className="mt-2 w-full rounded-xl border border-border px-3 py-2 text-sm"
+                                            <DBMSelect
+                        id={f.id}
+                        name={f.id}
+                        ariaLabel={f.label}
+                        value={values[f.id] ?? ""}
+                        onChange={(next) => {
+                          setConfirmClose(false);
+                          setValues((prev) => ({ ...prev, [f.id]: next }));
+                        }}
+                        onFocus={(e) => {
+                          setConfirmClose(false);
+                          const el = e.currentTarget as HTMLElement;
+                          window.setTimeout(() => scrollFieldIntoView({ container: scrollRef.current, footer: footerRef.current, el }), 0);
+                        }}
+                        options={f.options.map((opt) => ({ value: opt, label: opt }))}
                         ref={isJobField ? (jobFieldRef as any) : undefined}
-                      >
-                        {f.options.map((opt) => (
-                          <option key={opt} value={opt}>
-                            {opt}
-                          </option>
-                        ))}
-                      </select>
+                      />
                     ) : f.type === "textarea" ? (
                       <textarea
                         {...common}
                         rows={f.rows ?? 4}
                         placeholder={f.placeholder}
-                        className="mt-2 w-full rounded-xl border border-border px-3 py-2 text-sm"
+                        className="mt-2 min-h-11 w-full rounded-xl px-3 py-2.5 text-sm border border-[#CFD4DC] bg-white text-[#152238] shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-[#F97316] focus:ring-2 focus:ring-[#F97316]/20 disabled:bg-slate-100 disabled:text-slate-500"
                         ref={isJobField ? (jobFieldRef as any) : undefined}
                       />
                     ) : f.type === "number" ? (
                       <input
                         {...common}
                         placeholder={f.placeholder}
-                        className="mt-2 w-full rounded-xl border border-border px-3 py-2 text-sm"
+                        className="mt-2 min-h-11 w-full rounded-xl px-3 py-2.5 text-sm border border-[#CFD4DC] bg-white text-[#152238] shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-[#F97316] focus:ring-2 focus:ring-[#F97316]/20 disabled:bg-slate-100 disabled:text-slate-500"
                         inputMode="decimal"
                         disabled={isUnknown}
                         ref={isLocalidad ? (localidadRef as any) : isJobField ? (jobFieldRef as any) : undefined}
@@ -606,7 +613,7 @@ export default function WhatsAppSpecModal({
                       <input
                         {...common}
                         placeholder={f.placeholder}
-                        className="mt-2 w-full rounded-xl border border-border px-3 py-2 text-sm"
+                        className="mt-2 min-h-11 w-full rounded-xl px-3 py-2.5 text-sm border border-[#CFD4DC] bg-white text-[#152238] shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-[#F97316] focus:ring-2 focus:ring-[#F97316]/20 disabled:bg-slate-100 disabled:text-slate-500"
                         inputMode="text"
                         disabled={isUnknown}
                         ref={isLocalidad ? (localidadRef as any) : isJobField ? (jobFieldRef as any) : undefined}
@@ -617,14 +624,14 @@ export default function WhatsAppSpecModal({
               })}
             </div>
 
-            <div className="mt-5 rounded-2xl border border-border bg-white/70 p-4">
+            <div className="mt-5 rounded-2xl border border-[#F97316]/25 bg-white p-4 shadow-sm">
               <div className="text-sm font-semibold">Vista previa del mensaje</div>
-              <pre className="mt-2 whitespace-pre-wrap text-sm opacity-80">{buildMessage()}</pre>
+              <pre className="mt-3 max-h-52 overflow-y-auto whitespace-pre-wrap break-words rounded-xl bg-[#F5F6F8] p-3 text-xs leading-relaxed text-slate-700 sm:text-sm">{buildMessage()}</pre>
             </div>
           </div>
 
-          <div ref={footerRef} className="flex flex-wrap items-center justify-between gap-3 border-t p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] bg-white">
-            <p className="w-full text-xs text-slate-700">Responsable: Damián Brajkovic Miro. Finalidad: atender presupuestos. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Debes enviar el mensaje desde WhatsApp.</p>
+          <div ref={footerRef} className="flex flex-wrap items-center justify-between gap-3 border-t border-[#F97316]/20 bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:px-6">
+            <p className="w-full text-xs leading-5 text-slate-600">Responsable: Damián Brajkovic Miro. Finalidad: atender presupuestos. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Debes enviar el mensaje desde WhatsApp.</p>
             <div className="text-xs opacity-70">
               {missingCount > 0 ? (
                 <span>
@@ -635,10 +642,10 @@ export default function WhatsAppSpecModal({
               )}
             </div>
             <div className="flex flex-wrap gap-3">
-              <Button variant="secondary" onClick={attemptClose}>
+              <Button className="!border-[#D5DAE1] !bg-white !text-[#162137] hover:!bg-[#FFF4EA] hover:!border-[#F97316]/40 focus-visible:!ring-[#F97316] font-semibold" variant="secondary" onClick={attemptClose}>
                 Cancelar
               </Button>
-              <Button
+              <Button className="!border-[#D5DAE1] !bg-white !text-[#162137] hover:!bg-[#FFF4EA] hover:!border-[#F97316]/40 focus-visible:!ring-[#F97316] font-semibold"
                 variant="secondary"
                 onClick={async () => {
                   const msg = buildMessage();
@@ -653,7 +660,7 @@ export default function WhatsAppSpecModal({
               >
                 {copied ? "Copiado" : "Copiar"}
               </Button>
-              <Button
+              <Button className="!border-[#F97316] !bg-[#F97316] !text-[#151719] hover:!border-[#EA580C] hover:!bg-[#EA580C] focus-visible:!ring-[#F97316] font-bold shadow-sm"
                 onClick={() => {
                   setConfirmClose(false);
                   const now = Date.now();

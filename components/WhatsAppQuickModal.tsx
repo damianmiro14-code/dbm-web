@@ -1,4 +1,5 @@
 "use client";
+import DBMSelect from "@/components/ui/DBMSelect";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
@@ -390,7 +391,7 @@ export default function WhatsAppQuickModal({
     };
 
     const unknownToggle = f.type === "select" ? null : (
-      <label className="flex items-center gap-2 text-xs opacity-80">
+      <label className="flex items-center gap-2 text-xs font-medium text-slate-600">
         <input type="checkbox" checked={isUnknown} onChange={(e) => toggleUnknown(e.target.checked)} />
         No lo sé
       </label>
@@ -399,29 +400,24 @@ export default function WhatsAppQuickModal({
     return (
       <div key={f.id} className="grid gap-2">
         <div className="flex items-center justify-between gap-3">
-          <label className="text-sm font-medium">{f.label}</label>
+          <label className="text-sm font-semibold text-[#172033]">{f.label}</label>
           {unknownToggle}
         </div>
         {f.type === "select" ? (
-          <select
-            className="h-11 w-full rounded-xl border border-border px-3 text-sm"
+                    <DBMSelect
+            ariaLabel={f.label}
             value={val}
-            onChange={(e) => setVal(e.target.value)}
+            onChange={(next) => setVal(next)}
             onFocus={(e) => {
               setConfirmClose(false);
               const el = e.currentTarget as HTMLElement;
               window.setTimeout(() => scrollFieldIntoView({ container: scrollRef.current, footer: footerRef.current, el }), 0);
             }}
-          >
-            {f.options.map((opt) => (
-              <option key={opt} value={opt}>
-                {opt}
-              </option>
-            ))}
-          </select>
+            options={f.options.map((opt) => ({ value: opt, label: opt }))}
+          />
         ) : f.type === "textarea" ? (
           <textarea
-            className="w-full rounded-xl border border-border p-3 text-sm"
+            className="w-full rounded-xl p-3 text-sm border border-[#CFD4DC] bg-white text-[#152238] shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-[#F97316] focus:ring-2 focus:ring-[#F97316]/20 disabled:bg-slate-100 disabled:text-slate-500"
             rows={f.rows ?? 4}
             placeholder={f.placeholder}
             value={val}
@@ -435,7 +431,7 @@ export default function WhatsAppQuickModal({
           />
         ) : (
           <input
-            className="h-11 w-full rounded-xl border border-border px-3 text-sm"
+            className="h-11 w-full rounded-xl px-3 text-sm border border-[#CFD4DC] bg-white text-[#152238] shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-[#F97316] focus:ring-2 focus:ring-[#F97316]/20 disabled:bg-slate-100 disabled:text-slate-500"
             placeholder={f.placeholder}
             type="text"
             inputMode={f.type === "number" ? "decimal" : "text"}
@@ -474,7 +470,7 @@ export default function WhatsAppQuickModal({
     >
       <div
         ref={overlayRef}
-        className="absolute inset-0 bg-black/40"
+        className="absolute inset-0 bg-black/70 backdrop-blur-[2px]"
         aria-hidden
         onPointerDown={(e) => {
           if (e.currentTarget !== e.target) return;
@@ -490,19 +486,19 @@ export default function WhatsAppQuickModal({
           if (dx <= 8 && dy <= 8) attemptClose();
         }}
       />
-      <div className="absolute inset-0 flex items-end justify-center p-3 md:items-center">
-        <div ref={dialogRef} className="w-full max-w-2xl max-h-full overflow-hidden rounded-2xl border border-border bg-white shadow-lg flex flex-col">
-          <div className="flex items-center justify-between gap-4 border-b p-5 bg-white">
+      <div className="absolute inset-0 flex items-end justify-center p-2 sm:p-4 md:items-center">
+        <div ref={dialogRef} className="flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-[22px] border border-[#F97316]/25 bg-white shadow-[0_26px_90px_rgba(0,0,0,0.42)] sm:rounded-[26px]">
+          <div className="flex items-center justify-between gap-4 border-b border-white/10 bg-[#17191B] p-4 text-white sm:px-7 sm:py-5">
             <div>
-              <h3 id="dbm-quick-title" className="text-base font-semibold">{title}</h3>
-              <p id="dbm-quick-desc" className="text-xs opacity-70">
+              <h3 id="dbm-quick-title" className="text-lg font-extrabold tracking-tight text-white sm:text-xl">{title}</h3>
+              <p id="dbm-quick-desc" className="mt-1 text-xs leading-5 text-white/75">
                 Rellena lo que puedas (puedes marcar “No lo sé”) y abre WhatsApp.
               </p>
             </div>
             <button
               type="button"
               onClick={attemptClose}
-              className="rounded-lg p-2 opacity-70 hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2"
+              className="rounded-xl border border-white/20 p-2 text-white/80 transition-colors hover:border-[#F97316] hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316] focus-visible:ring-offset-2 focus-visible:ring-offset-[#17191B]"
               aria-label="Cerrar"
             >
               ✕
@@ -510,7 +506,7 @@ export default function WhatsAppQuickModal({
           </div>
 
           {confirmClose ? (
-            <div className="border-b px-5 py-3 text-xs bg-white">
+            <div className="border-b border-orange-200 bg-[#FFF5EB] px-4 py-3 text-xs text-slate-800 sm:px-7">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <div className="opacity-80">
                   Tienes cambios sin enviar. El borrador se guarda automáticamente.
@@ -518,14 +514,14 @@ export default function WhatsAppQuickModal({
                 <div className="flex gap-2">
                   <button
                     type="button"
-                    className="rounded-xl border border-border px-3 py-2 text-xs hover:bg-brand/5"
+                    className="rounded-xl border border-[#F97316]/35 bg-white px-3 py-2 text-xs font-semibold text-slate-800 hover:bg-orange-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316]"
                     onClick={() => setConfirmClose(false)}
                   >
                     Seguir
                   </button>
                   <button
                     type="button"
-                    className="rounded-xl border border-border px-3 py-2 text-xs hover:bg-brand/5"
+                    className="rounded-xl border border-[#F97316]/35 bg-white px-3 py-2 text-xs font-semibold text-slate-800 hover:bg-orange-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F97316]"
                     onClick={onClose}
                   >
                     Cerrar
@@ -537,31 +533,31 @@ export default function WhatsAppQuickModal({
 
           <div
             ref={scrollRef}
-            className="p-5 overflow-y-auto"
+            className="flex-1 overflow-y-auto bg-[#F7F8FA] p-4 sm:p-6"
             style={{ WebkitOverflowScrolling: "touch", overscrollBehavior: "contain", scrollPaddingBottom: footerH + 24, scrollPaddingTop: 24 } as any}
           >
             <div className="grid gap-4 md:grid-cols-2">{fields.map(renderField)}</div>
 
             {computedM2 ? (
-              <div className="mt-4 rounded-2xl border border-border p-4 text-sm">
+              <div className="mt-4 rounded-2xl border border-[#F97316]/25 bg-white p-4 text-sm text-slate-800 shadow-sm">
                 <div className="font-medium">m² calculados</div>
                 <div className="mt-1 opacity-80">{formatDecimalEs(computedM2, 2)} m²</div>
               </div>
             ) : null}
 
-            <div className="mt-6 rounded-2xl border border-border p-4">
-              <div className="text-sm font-medium">Vista previa del mensaje</div>
-              <pre className="mt-2 whitespace-pre-wrap text-xs leading-relaxed opacity-80">{message}</pre>
+            <div className="mt-6 rounded-2xl border border-[#F97316]/25 bg-white p-4 shadow-sm">
+              <div className="text-sm font-semibold text-[#172033]">Vista previa del mensaje</div>
+              <pre className="mt-3 max-h-52 overflow-y-auto whitespace-pre-wrap break-words rounded-xl bg-[#F5F6F8] p-3 text-xs leading-relaxed text-slate-700">{message}</pre>
             </div>
           </div>
 
-          <div ref={footerRef} className="border-t p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] flex flex-wrap items-center justify-between gap-3 bg-white">
-            <p className="w-full text-xs text-slate-700">Responsable: Damián Brajkovic Miro. Finalidad: gestionar tu consulta. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Abrir WhatsApp no envía automáticamente el mensaje.</p>
-            <Button variant="secondary" onClick={attemptClose}>
+          <div ref={footerRef} className="flex flex-wrap items-center justify-between gap-3 border-t border-[#F97316]/20 bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:px-6">
+            <p className="w-full text-xs leading-5 text-slate-600">Responsable: Damián Brajkovic Miro. Finalidad: gestionar tu consulta. <a className="underline" href="/privacidad" target="_blank" rel="noopener noreferrer">Privacidad y derechos</a>. Abrir WhatsApp no envía automáticamente el mensaje.</p>
+            <Button className="!border-[#D5DAE1] !bg-white !text-[#162137] hover:!bg-[#FFF4EA] hover:!border-[#F97316]/40 focus-visible:!ring-[#F97316] font-semibold" variant="secondary" onClick={attemptClose}>
               Cancelar
             </Button>
             <div className="flex flex-wrap gap-3">
-              <Button
+              <Button className="!border-[#D5DAE1] !bg-white !text-[#162137] hover:!bg-[#FFF4EA] hover:!border-[#F97316]/40 focus-visible:!ring-[#F97316] font-semibold"
                 variant="secondary"
                 onClick={async () => {
                   try {
@@ -575,7 +571,7 @@ export default function WhatsAppQuickModal({
               >
                 {copied ? "Copiado" : "Copiar"}
               </Button>
-              <Button
+              <Button className="!border-[#F97316] !bg-[#F97316] !text-[#151719] hover:!border-[#EA580C] hover:!bg-[#EA580C] focus-visible:!ring-[#F97316] font-bold shadow-sm"
                 href={waUrl}
                 onClick={() => {
                   const now = Date.now();
