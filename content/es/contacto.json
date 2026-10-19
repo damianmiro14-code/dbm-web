@@ -3,7 +3,7 @@
     "locale": "es-ES",
     "slug": "/contacto",
     "title": "Contacto y presupuesto | DBM Carpintería Metálica",
-    "description": "Contacta con DBM Carpintería Metálica en Castellón. Presupuesto rápido por WhatsApp o teléfono. Respondemos el mismo día.",
+    "description": "Contacta con DBM Carpintería Metálica en Castellón. Presupuesto rápido por WhatsApp o teléfono. Atendemos consultas en horario laboral.",
     "ogImage": "/og.jpg"
   },
   "business": {
@@ -30,7 +30,7 @@
       "type": "hero",
       "id": "hero",
       "headline": "Contacto",
-      "subheadline": "Cuéntanos qué necesitas (fotos, medidas y ubicación) y te respondemos el mismo día en horario laboral.",
+      "subheadline": "Cuéntanos qué necesitas (fotos, medidas y ubicación) y te atendemos en horario laboral.",
       "primaryCta": {
         "label": "Presupuesto rápido",
         "href": "/presupuesto"
@@ -49,7 +49,7 @@
       "type": "contact",
       "id": "contacto",
       "title": "Pide tu presupuesto sin compromiso",
-      "subtitle": "Envíanos fotos, medidas o una breve descripción. Respondemos el mismo día en horario laboral.",
+      "subtitle": "Envíanos fotos, medidas o una breve descripción. Atendemos consultas en horario laboral.",
       "whatsapp": {
         "phoneE164": "+34624356893",
         "defaultMessage": "Hola, soy ____ y necesito presupuesto para un trabajo de carpintería metálica en Castellón. Puedo enviar fotos y medidas."
@@ -87,7 +87,7 @@
       "items": [
         {
           "q": "¿Cuándo respondéis?",
-          "a": "Respondemos el mismo día en horario laboral."
+          "a": "Atendemos consultas en horario laboral."
         },
         {
           "q": "¿Cómo pedir presupuesto más rápido?",

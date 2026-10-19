@@ -18,7 +18,7 @@ export default function RouteChrome({ children, business }: Props) {
   const pathname = usePathname();
   // P203: presupuesto joins the three already validated V2 top-level routes.
   // Other routes keep their existing navigation until their own visual QA.
-  const isV2 = pathname === "/" || pathname === "/servicios" || pathname === "/trabajos" || pathname === "/presupuesto";
+  const isV2 = pathname === "/" || pathname === "/servicios" || pathname === "/trabajos" || pathname === "/presupuesto" || pathname === "/contacto";
 
   return (
     <>
